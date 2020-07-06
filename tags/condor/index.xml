@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>condor on Henri Kauhanen</title>
+    <link>/tags/condor/</link>
+    <description>Recent content in condor on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/condor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Checkpointing R code for HTCondor</title>
+      <link>/crumbs/checkpointing/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/crumbs/checkpointing/</guid>
+      <description>1. Intro 2. Usage 3. Full example 4. Source code   1. Intro HTCondor (Condor for short) is wonderful for running batch jobs whenever individual parallel instances of the batch do not need to communicate with each other — this can include Monte Carlo simulations, systematic sweeps over the parameter space of a dynamical system, and many kinds of complicated data analysis tasks. It is also ingenious, in the sense that it may be used to harness the dormant power of ordinary compute nodes when they are not otherwise in use (e.</description>
+    </item>
+    
+    <item>
+      <title>Setting PRNG seeds from noise</title>
+      <link>/crumbs/rng-seed-from-noise/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/crumbs/rng-seed-from-noise/</guid>
+      <description>blah</description>
+    </item>
+    
+  </channel>
+</rss>

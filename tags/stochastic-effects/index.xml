@@ -2,40 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stochastic effects on Henri Kauhanen</title>
-    <link>http://henr.in/tags/stochastic-effects/</link>
+    <link>/tags/stochastic-effects/</link>
     <description>Recent content in stochastic effects on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://henr.in/tags/stochastic-effects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/stochastic-effects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>/papers/tau/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/tau/</guid>
+      <description>Different structural features of human language change at different rates and thus exhibit different temporal stabilities. Existing methods of linguistic stability estimation depend upon the prior genealogical classification of the world&amp;rsquo;s languages into language families; these methods result in unreliable stability estimates for features which are sensitive to horizontal transfer between families and whenever data are aggregated from families of divergent time depths. To overcome these problems, we describe a method of stability estimation without family classifications, based on mathematical modelling and the analysis of contemporary geospatial distributions of linguistic features.</description>
+    </item>
+    
+    <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>http://henr.in/crumbs/phd/</link>
+      <link>/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/crumbs/phd/</guid>
+      <guid>/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>
     
     <item>
       <title>Grammar competition in neutral learning: a reply to Han et al. (2016)</title>
-      <link>http://henr.in/talks/FWAV2017/</link>
+      <link>/talks/FWAV2017/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/FWAV2017/</guid>
+      <guid>/talks/FWAV2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neutral change</title>
-      <link>http://henr.in/papers/neutral-change/</link>
+      <link>/papers/neutral-change/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/papers/neutral-change/</guid>
+      <guid>/papers/neutral-change/</guid>
       <description>Language change is neutral if the probability of a language learner adopting any given linguistic variant only depends on the frequency of that variant in the learner’s environment. Ruling out non-neutral motivations of change, be they sociolinguistic, computational, articulatory or functional, a theory of neutral change insists that at least some instances of language change are essentially due to random drift, demographic noise and the social dynamics of finite populations; consequently, it has remained little investigated in the historical and sociolinguistics literature, which has generally been on the lookout for more substantial causes of change.</description>
     </item>
     

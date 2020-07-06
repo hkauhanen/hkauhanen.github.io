@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>well-behavedness on Henri Kauhanen</title>
-    <link>http://henr.in/tags/well-behavedness/</link>
+    <link>/tags/well-behavedness/</link>
     <description>Recent content in well-behavedness on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 19 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://henr.in/tags/well-behavedness/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/well-behavedness/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
-      <link>http://henr.in/talks/ICCSS2019/</link>
+      <link>/talks/ICCSS2019/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/ICCSS2019/</guid>
+      <guid>/talks/ICCSS2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>http://henr.in/crumbs/phd/</link>
+      <link>/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/crumbs/phd/</guid>
+      <guid>/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>
     
     <item>
       <title>Neutral change</title>
-      <link>http://henr.in/papers/neutral-change/</link>
+      <link>/papers/neutral-change/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/papers/neutral-change/</guid>
+      <guid>/papers/neutral-change/</guid>
       <description>Language change is neutral if the probability of a language learner adopting any given linguistic variant only depends on the frequency of that variant in the learner’s environment. Ruling out non-neutral motivations of change, be they sociolinguistic, computational, articulatory or functional, a theory of neutral change insists that at least some instances of language change are essentially due to random drift, demographic noise and the social dynamics of finite populations; consequently, it has remained little investigated in the historical and sociolinguistics literature, which has generally been on the lookout for more substantial causes of change.</description>
     </item>
     
     <item>
       <title>Neutral change is a characteristic property of clusterized language communities</title>
-      <link>http://henr.in/talks/LAGB2015/</link>
+      <link>/talks/LAGB2015/</link>
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/LAGB2015/</guid>
+      <guid>/talks/LAGB2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preferential attachment, neutral evolution and the shape of language change</title>
-      <link>http://henr.in/talks/ICCSS2015/</link>
+      <link>/talks/ICCSS2015/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/ICCSS2015/</guid>
+      <guid>/talks/ICCSS2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Platonic and Heraclitean language change: chasing the S-curve through community structure</title>
-      <link>http://henr.in/talks/mFiL2014/</link>
+      <link>/talks/mFiL2014/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/mFiL2014/</guid>
+      <guid>/talks/mFiL2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assortative mixing, neutrality, and the shape of language change</title>
-      <link>http://henr.in/talks/SCCS2014/</link>
+      <link>/talks/SCCS2014/</link>
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/SCCS2014/</guid>
+      <guid>/talks/SCCS2014/</guid>
       <description></description>
     </item>
     

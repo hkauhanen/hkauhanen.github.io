@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coffee on Henri Kauhanen</title>
+    <link>/tags/coffee/</link>
+    <description>Recent content in coffee on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 15 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/coffee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Espresso: what I&#39;ve learned</title>
+      <link>/crumbs/espresso/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/crumbs/espresso/</guid>
+      <description>Life is too short for bad espresso Your grinder really is that important Avoid roasting extremes Don’t overdose Don’t expect espresso to behave linearly Be mindful of the properties of your water Keep it clean Daily Weekly Every 2 months Every 3 months  Be fair   With an average 12 kg per annum per capita consumption, Finns are known to take their coffee very seriously. My favourite method of preparation is the espresso, which I’ve been hooked on from about 2005, and which I’ve been making myself since 2019.</description>
+    </item>
+    
+    <item>
+      <title>How to get the best out of your Gran Gaggia</title>
+      <link>/crumbs/grangaggia/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/crumbs/grangaggia/</guid>
+      <description>“A mathematician is a device for turning coffee into theorems.” This statement by Alfréd Rényi (often misattributed to Erdős) can be adapted, I think, to describe the character of other kinds of scientists, too. Hence a post such as this may not be as off-topic on an academic webpage as might at first seem.
+This post, in particular, describes my experience chasing the Holy Grail of the perfect espresso using the budget Gran Gaggia espresso maker.</description>
+    </item>
+    
+  </channel>
+</rss>

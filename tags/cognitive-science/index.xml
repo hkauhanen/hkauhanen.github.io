@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cognitive science on Henri Kauhanen</title>
+    <link>/tags/cognitive-science/</link>
+    <description>Recent content in cognitive science on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 01 Nov 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cognitive-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The problem of implementation and its relation to the philosophy of cognitive science</title>
+      <link>/crumbs/ma/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/crumbs/ma/</guid>
+      <description>MA Thesis in Cognitive Science (2010, University of Helsinki).
+ Open access  Abstract According to certain arguments, computation is observer-relative either in the sense that many physical systems implement many computations (Hilary Putnam), or in the sense that almost all physical systems implement all computations (John Searle). If sound, these arguments have a potentially devastating consequence for the computational theory of mind: if arbitrary physical systems can be seen to implement arbitrary computations, the notion of computation seems to lose all explanatory power as far as brains and minds are concerned.</description>
+    </item>
+    
+  </channel>
+</rss>

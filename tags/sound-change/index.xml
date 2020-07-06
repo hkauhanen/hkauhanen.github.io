@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sound change on Henri Kauhanen</title>
-    <link>http://henr.in/tags/sound-change/</link>
+    <link>/tags/sound-change/</link>
     <description>Recent content in sound change on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://henr.in/tags/sound-change/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sound-change/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Modelling similarity-driven phonological generalisations</title>
-      <link>http://henr.in/talks/WSC2017/</link>
+      <link>/talks/WSC2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/talks/WSC2017/</guid>
+      <guid>/talks/WSC2017/</guid>
       <description></description>
     </item>
     

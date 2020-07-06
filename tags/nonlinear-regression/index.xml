@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nonlinear regression on Henri Kauhanen</title>
+    <link>/tags/nonlinear-regression/</link>
+    <description>Recent content in nonlinear regression on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/nonlinear-regression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deriving the Constant Rate Effect</title>
+      <link>/papers/deriving-cre/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/papers/deriving-cre/</guid>
+      <description>The Constant Rate Hypothesis (Kroch, 1989) states that when grammar competition leads to language change, the rate of replacement is the same in all contexts affected by the change (the Constant Rate Effect, or CRE). Despite nearly three decades of empirical work into this hypothesis, the theoretical foundations of the CRE remain problematic: it can be shown that the standard way of operationalizing the CRE via sets of independent logistic curves is neither sufficient nor necessary for assuming that a single change has occurred.</description>
+    </item>
+    
+  </channel>
+</rss>

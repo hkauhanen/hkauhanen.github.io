@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualization on Henri Kauhanen</title>
-    <link>http://henr.in/tags/visualization/</link>
+    <link>/tags/visualization/</link>
     <description>Recent content in visualization on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 04 May 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://henr.in/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plotting simplexes using R</title>
-      <link>http://henr.in/crumbs/simplex/</link>
+      <link>/crumbs/simplex/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://henr.in/crumbs/simplex/</guid>
+      <guid>/crumbs/simplex/</guid>
       <description>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies \(x_1\), \(x_2\) and \(x_3\) for which \(x_1 + x_2 + x_3 = 1\). This is most conveniently done on a 2-simplex (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.
 The function takes a minimum of four arguments: x and y are vectors holding the \(x_1\) and \(x_2\) values (it is not necessary to input the remaining, third value, as \(x_3 = 1 - x_1 - x_2\)); label is a vector of length 3 giving labels for the vertices of the simplex.</description>
     </item>
