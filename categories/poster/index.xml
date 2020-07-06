@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poster on Henri Kauhanen</title>
-    <link>/categories/poster/</link>
+    <link>http://henr.in/categories/poster/</link>
     <description>Recent content in poster on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Fri, 19 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/poster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/categories/poster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
-      <link>/talks/ICCSS2019/</link>
+      <link>http://henr.in/talks/ICCSS2019/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2019/</guid>
+      <guid>http://henr.in/talks/ICCSS2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling similarity-driven phonological generalisations</title>
-      <link>/talks/WSC2017/</link>
+      <link>http://henr.in/talks/WSC2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/WSC2017/</guid>
+      <guid>http://henr.in/talks/WSC2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preferential attachment, neutral evolution and the shape of language change</title>
-      <link>/talks/ICCSS2015/</link>
+      <link>http://henr.in/talks/ICCSS2015/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2015/</guid>
+      <guid>http://henr.in/talks/ICCSS2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assortative mixing, neutrality, and the shape of language change</title>
-      <link>/talks/SCCS2014/</link>
+      <link>http://henr.in/talks/SCCS2014/</link>
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talks/SCCS2014/</guid>
+      <guid>http://henr.in/talks/SCCS2014/</guid>
       <description></description>
     </item>
     

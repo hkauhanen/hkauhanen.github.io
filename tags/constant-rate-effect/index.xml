@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>constant rate effect on Henri Kauhanen</title>
-    <link>/tags/constant-rate-effect/</link>
+    <link>http://henr.in/tags/constant-rate-effect/</link>
     <description>Recent content in constant rate effect on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/constant-rate-effect/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/constant-rate-effect/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cre</title>
-      <link>/bytes/cre/</link>
+      <link>http://henr.in/bytes/cre/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/cre/</guid>
+      <guid>http://henr.in/bytes/cre/</guid>
       <description>An R package for fitting various models of the Constant Rate Effect, traditional (Kroch 1989) and non-traditional (Kauhanen &amp;amp; Walkden 2018), to linguistic data.
 See GitHub for installation and usage instructions.
 References Kauhanen, H. &amp;amp; Walkden, G. (2018) Deriving the Constant Rate Effect. Natural Language &amp;amp; Linguistic Theory, 36(2), 483–521.
@@ -25,101 +25,101 @@ Kroch, A. (1989) Reflexes of grammar in patterns of language change. Language Va
     
     <item>
       <title>{Big|small} data, {big|small} theory? Some thoughts on the past, present and future of language dynamics</title>
-      <link>/talks/JourFixe2019/</link>
+      <link>http://henr.in/talks/JourFixe2019/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/JourFixe2019/</guid>
+      <guid>http://henr.in/talks/JourFixe2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When is a constant rate truly constant? A Monte Carlo power analysis of the logistic operationalization of Constant Rate Effects</title>
-      <link>/talks/RUSE2019/</link>
+      <link>http://henr.in/talks/RUSE2019/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/RUSE2019/</guid>
+      <guid>http://henr.in/talks/RUSE2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
-      <link>/talks/ICCSS2019/</link>
+      <link>http://henr.in/talks/ICCSS2019/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2019/</guid>
+      <guid>http://henr.in/talks/ICCSS2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to measure the speed of linguistic change?</title>
-      <link>/talks/UoMDigHum2019/</link>
+      <link>http://henr.in/talks/UoMDigHum2019/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/UoMDigHum2019/</guid>
+      <guid>http://henr.in/talks/UoMDigHum2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>/crumbs/phd/</link>
+      <link>http://henr.in/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/phd/</guid>
+      <guid>http://henr.in/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>
     
     <item>
       <title>Deriving the Constant Rate Effect</title>
-      <link>/papers/deriving-cre/</link>
+      <link>http://henr.in/papers/deriving-cre/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/papers/deriving-cre/</guid>
+      <guid>http://henr.in/papers/deriving-cre/</guid>
       <description>The Constant Rate Hypothesis (Kroch, 1989) states that when grammar competition leads to language change, the rate of replacement is the same in all contexts affected by the change (the Constant Rate Effect, or CRE). Despite nearly three decades of empirical work into this hypothesis, the theoretical foundations of the CRE remain problematic: it can be shown that the standard way of operationalizing the CRE via sets of independent logistic curves is neither sufficient nor necessary for assuming that a single change has occurred.</description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/DiGS2016/</link>
+      <link>http://henr.in/talks/DiGS2016/</link>
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/DiGS2016/</guid>
+      <guid>http://henr.in/talks/DiGS2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/NWASV2016/</link>
+      <link>http://henr.in/talks/NWASV2016/</link>
       <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/NWASV2016/</guid>
+      <guid>http://henr.in/talks/NWASV2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/GLOW2016/</link>
+      <link>http://henr.in/talks/GLOW2016/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/GLOW2016/</guid>
+      <guid>http://henr.in/talks/GLOW2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signal or noise? Biases, interactions and the Constant Rate Effect</title>
-      <link>/talks/baddata2016/</link>
+      <link>http://henr.in/talks/baddata2016/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/baddata2016/</guid>
+      <guid>http://henr.in/talks/baddata2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A population dynamic mechanism for the Constant Rate Effect (and beyond)</title>
-      <link>/talks/ICHL2015/</link>
+      <link>http://henr.in/talks/ICHL2015/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICHL2015/</guid>
+      <guid>http://henr.in/talks/ICHL2015/</guid>
       <description></description>
     </item>
     

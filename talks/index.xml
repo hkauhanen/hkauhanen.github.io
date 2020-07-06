@@ -2,201 +2,201 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Henri Kauhanen</title>
-    <link>/talks/</link>
+    <link>http://henr.in/talks/</link>
     <description>Recent content in Talks on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>{Big|small} data, {big|small} theory? Some thoughts on the past, present and future of language dynamics</title>
-      <link>/talks/JourFixe2019/</link>
+      <link>http://henr.in/talks/JourFixe2019/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/JourFixe2019/</guid>
+      <guid>http://henr.in/talks/JourFixe2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When is a constant rate truly constant? A Monte Carlo power analysis of the logistic operationalization of Constant Rate Effects</title>
-      <link>/talks/RUSE2019/</link>
+      <link>http://henr.in/talks/RUSE2019/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/RUSE2019/</guid>
+      <guid>http://henr.in/talks/RUSE2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
-      <link>/talks/ICCSS2019/</link>
+      <link>http://henr.in/talks/ICCSS2019/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2019/</guid>
+      <guid>http://henr.in/talks/ICCSS2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to measure the speed of linguistic change?</title>
-      <link>/talks/UoMDigHum2019/</link>
+      <link>http://henr.in/talks/UoMDigHum2019/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/UoMDigHum2019/</guid>
+      <guid>http://henr.in/talks/UoMDigHum2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geospatial distributions reflect rates of evolution of features of language</title>
-      <link>/talks/SPLEV2019/</link>
+      <link>http://henr.in/talks/SPLEV2019/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/SPLEV2019/</guid>
+      <guid>http://henr.in/talks/SPLEV2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parsing advantage as the determinant of change and stability? Some problems of the variational model of language change</title>
-      <link>/talks/XLanS2017/</link>
+      <link>http://henr.in/talks/XLanS2017/</link>
       <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/XLanS2017/</guid>
+      <guid>http://henr.in/talks/XLanS2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spatial distributions of linguistic features are determined by the interaction of endogenous and exogenous dynamics</title>
-      <link>/talks/ICCSS2017/</link>
+      <link>http://henr.in/talks/ICCSS2017/</link>
       <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2017/</guid>
+      <guid>http://henr.in/talks/ICCSS2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grammar competition in neutral learning: a reply to Han et al. (2016)</title>
-      <link>/talks/FWAV2017/</link>
+      <link>http://henr.in/talks/FWAV2017/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/FWAV2017/</guid>
+      <guid>http://henr.in/talks/FWAV2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling similarity-driven phonological generalisations</title>
-      <link>/talks/WSC2017/</link>
+      <link>http://henr.in/talks/WSC2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/WSC2017/</guid>
+      <guid>http://henr.in/talks/WSC2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two types of states: a cross-linguistic study of change-of-state verb roots</title>
-      <link>/talks/LSA2017/</link>
+      <link>http://henr.in/talks/LSA2017/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LSA2017/</guid>
+      <guid>http://henr.in/talks/LSA2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Naive parameter diachrony, with and without biases</title>
-      <link>/talks/LAGB2016/</link>
+      <link>http://henr.in/talks/LAGB2016/</link>
       <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LAGB2016/</guid>
+      <guid>http://henr.in/talks/LAGB2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/DiGS2016/</link>
+      <link>http://henr.in/talks/DiGS2016/</link>
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/DiGS2016/</guid>
+      <guid>http://henr.in/talks/DiGS2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable variation arises from noisy across-population bias distributions in the absence of global bias</title>
-      <link>/talks/DiGS2016ws/</link>
+      <link>http://henr.in/talks/DiGS2016ws/</link>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/DiGS2016ws/</guid>
+      <guid>http://henr.in/talks/DiGS2016ws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/NWASV2016/</link>
+      <link>http://henr.in/talks/NWASV2016/</link>
       <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/NWASV2016/</guid>
+      <guid>http://henr.in/talks/NWASV2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/GLOW2016/</link>
+      <link>http://henr.in/talks/GLOW2016/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/GLOW2016/</guid>
+      <guid>http://henr.in/talks/GLOW2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signal or noise? Biases, interactions and the Constant Rate Effect</title>
-      <link>/talks/baddata2016/</link>
+      <link>http://henr.in/talks/baddata2016/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/baddata2016/</guid>
+      <guid>http://henr.in/talks/baddata2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neutral change is a characteristic property of clusterized language communities</title>
-      <link>/talks/LAGB2015/</link>
+      <link>http://henr.in/talks/LAGB2015/</link>
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LAGB2015/</guid>
+      <guid>http://henr.in/talks/LAGB2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A population dynamic mechanism for the Constant Rate Effect (and beyond)</title>
-      <link>/talks/ICHL2015/</link>
+      <link>http://henr.in/talks/ICHL2015/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICHL2015/</guid>
+      <guid>http://henr.in/talks/ICHL2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preferential attachment, neutral evolution and the shape of language change</title>
-      <link>/talks/ICCSS2015/</link>
+      <link>http://henr.in/talks/ICCSS2015/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2015/</guid>
+      <guid>http://henr.in/talks/ICCSS2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Platonic and Heraclitean language change: chasing the S-curve through community structure</title>
-      <link>/talks/mFiL2014/</link>
+      <link>http://henr.in/talks/mFiL2014/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talks/mFiL2014/</guid>
+      <guid>http://henr.in/talks/mFiL2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Assortative mixing, neutrality, and the shape of language change</title>
-      <link>/talks/SCCS2014/</link>
+      <link>http://henr.in/talks/SCCS2014/</link>
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talks/SCCS2014/</guid>
+      <guid>http://henr.in/talks/SCCS2014/</guid>
       <description></description>
     </item>
     

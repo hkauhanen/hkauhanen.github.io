@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r on Henri Kauhanen</title>
-    <link>/tags/r/</link>
+    <link>http://henr.in/tags/r/</link>
     <description>Recent content in r on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cre</title>
-      <link>/bytes/cre/</link>
+      <link>http://henr.in/bytes/cre/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/cre/</guid>
+      <guid>http://henr.in/bytes/cre/</guid>
       <description>An R package for fitting various models of the Constant Rate Effect, traditional (Kroch 1989) and non-traditional (Kauhanen &amp;amp; Walkden 2018), to linguistic data.
 See GitHub for installation and usage instructions.
 References Kauhanen, H. &amp;amp; Walkden, G. (2018) Deriving the Constant Rate Effect. Natural Language &amp;amp; Linguistic Theory, 36(2), 483–521.
@@ -25,10 +25,10 @@ Kroch, A. (1989) Reflexes of grammar in patterns of language change. Language Va
     
     <item>
       <title>hipster</title>
-      <link>/bytes/hipster/</link>
+      <link>http://henr.in/bytes/hipster/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/hipster/</guid>
+      <guid>http://henr.in/bytes/hipster/</guid>
       <description> A.k.a. Henri’s Idiosyncratic Package of Somewhat Tedious Everyday Routines. Implements a handful of R functions I wish were part of the default installation.
 Status Very much in research and development.
  Installation With devtools:
@@ -38,10 +38,10 @@ devtools::install_github(&amp;quot;hkauhanen/hipster&amp;quot;)  Usage Documenta
     
     <item>
       <title>pbcm</title>
-      <link>/bytes/pbcm/</link>
+      <link>http://henr.in/bytes/pbcm/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/pbcm/</guid>
+      <guid>http://henr.in/bytes/pbcm/</guid>
       <description> An R package that implements the Parametric Bootstrap Cross-fitting Method (Wagenmakers et al. 2004).
 For installation instructions, function reference and a vignette, see the package website.
 References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. (2004) Assessing model mimicry using the parametric bootstrap. Journal of Mathematical Psychology, 48(1), 28–50. https://doi.org/10.1016/j.jmp.2003.11.004
@@ -50,58 +50,30 @@ References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. 
     
     <item>
       <title>ritwals</title>
-      <link>/bytes/ritwals/</link>
+      <link>http://henr.in/bytes/ritwals/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/ritwals/</guid>
+      <guid>http://henr.in/bytes/ritwals/</guid>
       <description>ritwals provides an R interface to the data provided by the World Atlas of Language Structures, along with some convenience functions for language sampling, subsetting, areal typology, and so forth.
 For installation and usage instructions, consult the package website.</description>
     </item>
     
     <item>
-      <title>Checkpointing R code for HTCondor</title>
-      <link>/crumbs/checkpointing/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/checkpointing/</guid>
-      <description>1. Intro 2. Usage 3. Full example 4. Source code   1. Intro HTCondor (Condor for short) is wonderful for running batch jobs whenever individual parallel instances of the batch do not need to communicate with each other — this can include Monte Carlo simulations, systematic sweeps over the parameter space of a dynamical system, and many kinds of complicated data analysis tasks. It is also ingenious, in the sense that it may be used to harness the dormant power of ordinary compute nodes when they are not otherwise in use (e.</description>
-    </item>
-    
-    <item>
-      <title>Setting PRNG seeds from noise</title>
-      <link>/crumbs/rng-seed-from-noise/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rng-seed-from-noise/</guid>
-      <description>blah</description>
-    </item>
-    
-    <item>
-      <title>Useful R functions</title>
-      <link>/crumbs/rfunctions/</link>
-      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rfunctions/</guid>
-      <description>\(1 + \int\)
-This is a catalogue of R functions that are particularly useful in the sort of work I tend to use R for – analysis of large, multidimensional datasets, including various kinds of Monte Carlo procedures, plus prototyping of computational simulations (and sometimes, when speed is not a major concern, actual simulations). Since I tend to either forget about the existence of these functions or how they are used, however, I thought it might be a good idea to collect them in one place (and this is a dynamic catalogue, meaning that I will be adding more useful functions as I stumble upon them).</description>
-    </item>
-    
-    <item>
       <title>Quantitative methods in historical linguistics</title>
-      <link>/teaching/quant2018/</link>
+      <link>http://henr.in/teaching/quant2018/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/quant2018/</guid>
+      <guid>http://henr.in/teaching/quant2018/</guid>
       <description>1. Course description 2. Slides 3. Tutorials 4. Portfolio exercises 5. Datasets 6. Scripts 7. Animations 7.1 NLS fit of logistic function 7.2 Error landscape of the fit    Undergraduate seminar given at the University of Konstanz, Summer semester 2018.
 1. Course description Recent years have witnessed a surge of formal and computational methods in the traditionally qualitative field of historical linguistics: these methods include quantitative tools for establishing language family relationships, describing patterns of change in historical corpora, and modelling change in the framework of dynamical systems theory.</description>
     </item>
     
     <item>
       <title>Plotting simplexes using R</title>
-      <link>/crumbs/simplex/</link>
+      <link>http://henr.in/crumbs/simplex/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/simplex/</guid>
+      <guid>http://henr.in/crumbs/simplex/</guid>
       <description>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies \(x_1\), \(x_2\) and \(x_3\) for which \(x_1 + x_2 + x_3 = 1\). This is most conveniently done on a 2-simplex (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.
 The function takes a minimum of four arguments: x and y are vectors holding the \(x_1\) and \(x_2\) values (it is not necessary to input the remaining, third value, as \(x_3 = 1 - x_1 - x_2\)); label is a vector of length 3 giving labels for the vertices of the simplex.</description>
     </item>

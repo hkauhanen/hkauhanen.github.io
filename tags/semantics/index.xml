@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>semantics on Henri Kauhanen</title>
-    <link>/tags/semantics/</link>
+    <link>http://henr.in/tags/semantics/</link>
     <description>Recent content in semantics on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/semantics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/semantics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Two types of states: a cross-linguistic study of change-of-state verb roots</title>
-      <link>/talks/LSA2017/</link>
+      <link>http://henr.in/talks/LSA2017/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LSA2017/</guid>
+      <guid>http://henr.in/talks/LSA2017/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Henri Kauhanen</title>
-    <link>/</link>
+    <link>http://henr.in/</link>
     <description>Recent content on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cre</title>
-      <link>/bytes/cre/</link>
+      <link>http://henr.in/bytes/cre/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/cre/</guid>
+      <guid>http://henr.in/bytes/cre/</guid>
       <description>An R package for fitting various models of the Constant Rate Effect, traditional (Kroch 1989) and non-traditional (Kauhanen &amp;amp; Walkden 2018), to linguistic data.
 See GitHub for installation and usage instructions.
 References Kauhanen, H. &amp;amp; Walkden, G. (2018) Deriving the Constant Rate Effect. Natural Language &amp;amp; Linguistic Theory, 36(2), 483–521.
@@ -25,10 +25,10 @@ Kroch, A. (1989) Reflexes of grammar in patterns of language change. Language Va
     
     <item>
       <title>hipster</title>
-      <link>/bytes/hipster/</link>
+      <link>http://henr.in/bytes/hipster/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/hipster/</guid>
+      <guid>http://henr.in/bytes/hipster/</guid>
       <description> A.k.a. Henri’s Idiosyncratic Package of Somewhat Tedious Everyday Routines. Implements a handful of R functions I wish were part of the default installation.
 Status Very much in research and development.
  Installation With devtools:
@@ -38,10 +38,10 @@ devtools::install_github(&amp;quot;hkauhanen/hipster&amp;quot;)  Usage Documenta
     
     <item>
       <title>pbcm</title>
-      <link>/bytes/pbcm/</link>
+      <link>http://henr.in/bytes/pbcm/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/pbcm/</guid>
+      <guid>http://henr.in/bytes/pbcm/</guid>
       <description> An R package that implements the Parametric Bootstrap Cross-fitting Method (Wagenmakers et al. 2004).
 For installation instructions, function reference and a vignette, see the package website.
 References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. (2004) Assessing model mimicry using the parametric bootstrap. Journal of Mathematical Psychology, 48(1), 28–50. https://doi.org/10.1016/j.jmp.2003.11.004
@@ -49,30 +49,21 @@ References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. 
     </item>
     
     <item>
-      <title>PopDyLan.jl</title>
-      <link>/bytes/PopDyLan.jl/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/bytes/PopDyLan.jl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ritwals</title>
-      <link>/bytes/ritwals/</link>
+      <link>http://henr.in/bytes/ritwals/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/ritwals/</guid>
+      <guid>http://henr.in/bytes/ritwals/</guid>
       <description>ritwals provides an R interface to the data provided by the World Atlas of Language Structures, along with some convenience functions for language sampling, subsetting, areal typology, and so forth.
 For installation and usage instructions, consult the package website.</description>
     </item>
     
     <item>
       <title>Language Dynamics Journal Club</title>
-      <link>/crumbs/journalclub/</link>
+      <link>http://henr.in/crumbs/journalclub/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/journalclub/</guid>
+      <guid>http://henr.in/crumbs/journalclub/</guid>
       <description>A(n approximately) fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
 Upcoming meetings 15/07/2020 TBA
 Past meetings (archive) 29/06/2020 Sóskuthy, M. (2015) Understanding change through stability: a computational study of sound change actuation. Lingua, 163, 40&amp;ndash;60. https://doi.org/10.1016/j.lingua.2015.05.010
@@ -80,140 +71,93 @@ Past meetings (archive) 29/06/2020 Sóskuthy, M. (2015) Understanding change thr
     </item>
     
     <item>
-      <title>Espresso: what I&#39;ve learned</title>
-      <link>/crumbs/espresso/</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/espresso/</guid>
-      <description>Life is too short for bad espresso Your grinder really is that important Avoid roasting extremes Don’t overdose Don’t expect espresso to behave linearly Be mindful of the properties of your water Keep it clean Daily Weekly Every 2 months Every 3 months  Be fair   With an average 12 kg per annum per capita consumption, Finns are known to take their coffee very seriously. My favourite method of preparation is the espresso, which I’ve been hooked on from about 2005, and which I’ve been making myself since 2019.</description>
-    </item>
-    
-    <item>
-      <title>How to get the best out of your Gran Gaggia</title>
-      <link>/crumbs/grangaggia/</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/grangaggia/</guid>
-      <description>“A mathematician is a device for turning coffee into theorems.” This statement by Alfréd Rényi (often misattributed to Erdős) can be adapted, I think, to describe the character of other kinds of scientists, too. Hence a post such as this may not be as off-topic on an academic webpage as might at first seem.
-This post, in particular, describes my experience chasing the Holy Grail of the perfect espresso using the budget Gran Gaggia espresso maker.</description>
-    </item>
-    
-    <item>
       <title>Geospatial distributions reflect rates of evolution of features of language</title>
-      <link>/papers/tau/</link>
+      <link>http://henr.in/papers/tau/</link>
       <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/papers/tau/</guid>
+      <guid>http://henr.in/papers/tau/</guid>
       <description>Different structural features of human language change at different rates and thus exhibit different temporal stabilities. Existing methods of linguistic stability estimation depend upon the prior genealogical classification of the world&amp;rsquo;s languages into language families; these methods result in unreliable stability estimates for features which are sensitive to horizontal transfer between families and whenever data are aggregated from families of divergent time depths. To overcome these problems, we describe a method of stability estimation without family classifications, based on mathematical modelling and the analysis of contemporary geospatial distributions of linguistic features.</description>
     </item>
     
     <item>
       <title>{Big|small} data, {big|small} theory? Some thoughts on the past, present and future of language dynamics</title>
-      <link>/talks/JourFixe2019/</link>
+      <link>http://henr.in/talks/JourFixe2019/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/JourFixe2019/</guid>
+      <guid>http://henr.in/talks/JourFixe2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When is a constant rate truly constant? A Monte Carlo power analysis of the logistic operationalization of Constant Rate Effects</title>
-      <link>/talks/RUSE2019/</link>
+      <link>http://henr.in/talks/RUSE2019/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/RUSE2019/</guid>
+      <guid>http://henr.in/talks/RUSE2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
-      <link>/talks/ICCSS2019/</link>
+      <link>http://henr.in/talks/ICCSS2019/</link>
       <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2019/</guid>
+      <guid>http://henr.in/talks/ICCSS2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to measure the speed of linguistic change?</title>
-      <link>/talks/UoMDigHum2019/</link>
+      <link>http://henr.in/talks/UoMDigHum2019/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/UoMDigHum2019/</guid>
+      <guid>http://henr.in/talks/UoMDigHum2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable variation in multidimensional competition</title>
-      <link>/papers/stable-variation/</link>
+      <link>http://henr.in/papers/stable-variation/</link>
       <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/papers/stable-variation/</guid>
+      <guid>http://henr.in/papers/stable-variation/</guid>
       <description>The Fundamental Theorem of Language Change (Yang, 2000) implies the impossibility of stable variation in the Variational Learning framework, but only in the special case where two, and not more, grammatical variants compete. Introducing the notion of an advantage matrix, I generalize Variational Learning to situations where the learner receives input generated by more than two grammars, and show that diachronically stable variation is an intrinsic feature of several types of such multiple-grammar systems.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>http://henr.in/about/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://henr.in/about/</guid>
       <description>Brief CV 1. Current position Postdoctoral Fellow, Zukunftskolleg, University of Konstanz
 2. Previous appointments  ESRC Postdoctoral Fellow, School of Arts, Languages and Cultures &amp;amp; Data Analytics and Society CDT, The University of Manchester (10/2018&amp;ndash;10/2019) Akademischer Mitarbeiter (Teaching and Research Associate), Department of Linguistics, University of Konstanz (4/2017&amp;ndash;9/2018) Graduate Teaching Assistant, Linguistics and English Language, The University of Manchester (2014&amp;ndash;2016)  3. Qualifications  Doctor of Philosophy (Linguistics), The University of Manchester (2014&amp;ndash;2018) Master of Arts (Cognitive Science with a minor in Mathematics), University of Helsinki (2008&amp;ndash;2010) Bachelor of Arts (English Philology with a minor in Latin), University of Helsinki (2009&amp;ndash;2013) Bachelor of Arts (Cognitive Science with minors in Theoretical Philosophy and Mathematics), University of Helsinki (2005&amp;ndash;2008)  4.</description>
     </item>
     
     <item>
       <title>Geospatial distributions reflect rates of evolution of features of language</title>
-      <link>/talks/SPLEV2019/</link>
+      <link>http://henr.in/talks/SPLEV2019/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talks/SPLEV2019/</guid>
+      <guid>http://henr.in/talks/SPLEV2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Checkpointing R code for HTCondor</title>
-      <link>/crumbs/checkpointing/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/checkpointing/</guid>
-      <description>1. Intro 2. Usage 3. Full example 4. Source code   1. Intro HTCondor (Condor for short) is wonderful for running batch jobs whenever individual parallel instances of the batch do not need to communicate with each other — this can include Monte Carlo simulations, systematic sweeps over the parameter space of a dynamical system, and many kinds of complicated data analysis tasks. It is also ingenious, in the sense that it may be used to harness the dormant power of ordinary compute nodes when they are not otherwise in use (e.</description>
-    </item>
-    
-    <item>
-      <title>Setting PRNG seeds from noise</title>
-      <link>/crumbs/rng-seed-from-noise/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rng-seed-from-noise/</guid>
-      <description>blah</description>
-    </item>
-    
-    <item>
       <title>Henri Kauhanen</title>
-      <link>/start/</link>
+      <link>http://henr.in/start/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/start/</guid>
+      <guid>http://henr.in/start/</guid>
       <description>Hi! I am a complex systems scientist working mainly on the cultural evolution of language, applying methods from dynamical systems, computational simulation and data science to explain patterns of linguistic variation and change, on various temporal and spatial scales. Apart from applying mathematical and computational tools to understand the population dynamics of language, I am also interested in various epistemological and methodological issues to do with how theory (and models) and data are (or ought to be) linked in this enterprise.</description>
     </item>
     
     <item>
-      <title>Useful R functions</title>
-      <link>/crumbs/rfunctions/</link>
-      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rfunctions/</guid>
-      <description>\(1 + \int\)
-This is a catalogue of R functions that are particularly useful in the sort of work I tend to use R for – analysis of large, multidimensional datasets, including various kinds of Monte Carlo procedures, plus prototyping of computational simulations (and sometimes, when speed is not a major concern, actual simulations). Since I tend to either forget about the existence of these functions or how they are used, however, I thought it might be a good idea to collect them in one place (and this is a dynamic catalogue, meaning that I will be adding more useful functions as I stumble upon them).</description>
-    </item>
-    
-    <item>
       <title>Adaptive dispersion via stochastic hill climbing</title>
-      <link>/crumbs/ad/</link>
+      <link>http://henr.in/crumbs/ad/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/ad/</guid>
+      <guid>http://henr.in/crumbs/ad/</guid>
       <description>1. Description 2. Illustration 3. Source code 4. Compilation and usage 5. R source for illustration   1. Description How to distribute \(n\) vowels in an acoustic space so that the average vowel-to-vowel distance is maximized? In a classical paper, Liljencrants and Lindblom proposed numerically minimizing the energy function
 \[E = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{1}{(x_i - x_j)^2 + (y_i - y_j)^2}\]
 where the \(x_i\) stand for the first and the \(y_i\) for the second formants (expressed in mel space, with second formants F3-corrected).</description>
@@ -221,222 +165,222 @@ where the \(x_i\) stand for the first and the \(y_i\) for the second formants (e
     
     <item>
       <title>Quantitative methods in historical linguistics</title>
-      <link>/teaching/quant2018/</link>
+      <link>http://henr.in/teaching/quant2018/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/quant2018/</guid>
+      <guid>http://henr.in/teaching/quant2018/</guid>
       <description>1. Course description 2. Slides 3. Tutorials 4. Portfolio exercises 5. Datasets 6. Scripts 7. Animations 7.1 NLS fit of logistic function 7.2 Error landscape of the fit    Undergraduate seminar given at the University of Konstanz, Summer semester 2018.
 1. Course description Recent years have witnessed a surge of formal and computational methods in the traditionally qualitative field of historical linguistics: these methods include quantitative tools for establishing language family relationships, describing patterns of change in historical corpora, and modelling change in the framework of dynamical systems theory.</description>
     </item>
     
     <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>/crumbs/phd/</link>
+      <link>http://henr.in/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/phd/</guid>
+      <guid>http://henr.in/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>
     
     <item>
       <title>Deriving the Constant Rate Effect</title>
-      <link>/papers/deriving-cre/</link>
+      <link>http://henr.in/papers/deriving-cre/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/papers/deriving-cre/</guid>
+      <guid>http://henr.in/papers/deriving-cre/</guid>
       <description>The Constant Rate Hypothesis (Kroch, 1989) states that when grammar competition leads to language change, the rate of replacement is the same in all contexts affected by the change (the Constant Rate Effect, or CRE). Despite nearly three decades of empirical work into this hypothesis, the theoretical foundations of the CRE remain problematic: it can be shown that the standard way of operationalizing the CRE via sets of independent logistic curves is neither sufficient nor necessary for assuming that a single change has occurred.</description>
     </item>
     
     <item>
       <title>Parsing advantage as the determinant of change and stability? Some problems of the variational model of language change</title>
-      <link>/talks/XLanS2017/</link>
+      <link>http://henr.in/talks/XLanS2017/</link>
       <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/XLanS2017/</guid>
+      <guid>http://henr.in/talks/XLanS2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spatial distributions of linguistic features are determined by the interaction of endogenous and exogenous dynamics</title>
-      <link>/talks/ICCSS2017/</link>
+      <link>http://henr.in/talks/ICCSS2017/</link>
       <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2017/</guid>
+      <guid>http://henr.in/talks/ICCSS2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grammar competition in neutral learning: a reply to Han et al. (2016)</title>
-      <link>/talks/FWAV2017/</link>
+      <link>http://henr.in/talks/FWAV2017/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/FWAV2017/</guid>
+      <guid>http://henr.in/talks/FWAV2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neutral change</title>
-      <link>/papers/neutral-change/</link>
+      <link>http://henr.in/papers/neutral-change/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/papers/neutral-change/</guid>
+      <guid>http://henr.in/papers/neutral-change/</guid>
       <description>Language change is neutral if the probability of a language learner adopting any given linguistic variant only depends on the frequency of that variant in the learner’s environment. Ruling out non-neutral motivations of change, be they sociolinguistic, computational, articulatory or functional, a theory of neutral change insists that at least some instances of language change are essentially due to random drift, demographic noise and the social dynamics of finite populations; consequently, it has remained little investigated in the historical and sociolinguistics literature, which has generally been on the lookout for more substantial causes of change.</description>
     </item>
     
     <item>
       <title>Modelling similarity-driven phonological generalisations</title>
-      <link>/talks/WSC2017/</link>
+      <link>http://henr.in/talks/WSC2017/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/WSC2017/</guid>
+      <guid>http://henr.in/talks/WSC2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two types of states: a cross-linguistic study of change-of-state verb roots</title>
-      <link>/talks/LSA2017/</link>
+      <link>http://henr.in/talks/LSA2017/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LSA2017/</guid>
+      <guid>http://henr.in/talks/LSA2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Naive parameter diachrony, with and without biases</title>
-      <link>/talks/LAGB2016/</link>
+      <link>http://henr.in/talks/LAGB2016/</link>
       <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LAGB2016/</guid>
+      <guid>http://henr.in/talks/LAGB2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/DiGS2016/</link>
+      <link>http://henr.in/talks/DiGS2016/</link>
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/DiGS2016/</guid>
+      <guid>http://henr.in/talks/DiGS2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stable variation arises from noisy across-population bias distributions in the absence of global bias</title>
-      <link>/talks/DiGS2016ws/</link>
+      <link>http://henr.in/talks/DiGS2016ws/</link>
       <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/DiGS2016ws/</guid>
+      <guid>http://henr.in/talks/DiGS2016ws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/NWASV2016/</link>
+      <link>http://henr.in/talks/NWASV2016/</link>
       <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/NWASV2016/</guid>
+      <guid>http://henr.in/talks/NWASV2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plotting simplexes using R</title>
-      <link>/crumbs/simplex/</link>
+      <link>http://henr.in/crumbs/simplex/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/simplex/</guid>
+      <guid>http://henr.in/crumbs/simplex/</guid>
       <description>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies \(x_1\), \(x_2\) and \(x_3\) for which \(x_1 + x_2 + x_3 = 1\). This is most conveniently done on a 2-simplex (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.
 The function takes a minimum of four arguments: x and y are vectors holding the \(x_1\) and \(x_2\) values (it is not necessary to input the remaining, third value, as \(x_3 = 1 - x_1 - x_2\)); label is a vector of length 3 giving labels for the vertices of the simplex.</description>
     </item>
     
     <item>
       <title>A production bias model of the Constant Rate Effect</title>
-      <link>/talks/GLOW2016/</link>
+      <link>http://henr.in/talks/GLOW2016/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/GLOW2016/</guid>
+      <guid>http://henr.in/talks/GLOW2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fixing LaTeX math commas</title>
-      <link>/crumbs/mathcomma/</link>
+      <link>http://henr.in/crumbs/mathcomma/</link>
       <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/mathcomma/</guid>
+      <guid>http://henr.in/crumbs/mathcomma/</guid>
       <description>If you use different fonts for text and math in your LaTeX documents (not generally recommended, but necessary if your favourite font does not come with mathematics support), you may have found yourself annoyed by having two differently shaped commas, one in text mode and the other in math mode. Here&amp;rsquo;s a demonstration with Times as the text font and Computer Modern as the math font:
 The vertices $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$\dots   A simple way of fixing this is to force math mode to use the text font comma.</description>
     </item>
     
     <item>
       <title>Signal or noise? Biases, interactions and the Constant Rate Effect</title>
-      <link>/talks/baddata2016/</link>
+      <link>http://henr.in/talks/baddata2016/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talks/baddata2016/</guid>
+      <guid>http://henr.in/talks/baddata2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neutral change is a characteristic property of clusterized language communities</title>
-      <link>/talks/LAGB2015/</link>
+      <link>http://henr.in/talks/LAGB2015/</link>
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/LAGB2015/</guid>
+      <guid>http://henr.in/talks/LAGB2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A population dynamic mechanism for the Constant Rate Effect (and beyond)</title>
-      <link>/talks/ICHL2015/</link>
+      <link>http://henr.in/talks/ICHL2015/</link>
       <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICHL2015/</guid>
+      <guid>http://henr.in/talks/ICHL2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preferential attachment, neutral evolution and the shape of language change</title>
-      <link>/talks/ICCSS2015/</link>
+      <link>http://henr.in/talks/ICCSS2015/</link>
       <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talks/ICCSS2015/</guid>
+      <guid>http://henr.in/talks/ICCSS2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Platonic and Heraclitean language change: chasing the S-curve through community structure</title>
-      <link>/talks/mFiL2014/</link>
+      <link>http://henr.in/talks/mFiL2014/</link>
       <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talks/mFiL2014/</guid>
+      <guid>http://henr.in/talks/mFiL2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evolutionary game theory</title>
-      <link>/crumbs/egt/</link>
+      <link>http://henr.in/crumbs/egt/</link>
       <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/egt/</guid>
+      <guid>http://henr.in/crumbs/egt/</guid>
       <description>Some thoughts on evolutionary game theory and its applicability in diachronic linguistics, originally prepared for Postgridiots in 2014.
  PDF  Abstract I review some basic concepts from Evolutionary Game Theory (EGT), a general mathematical framework for thinking about the competition and propagation of features or traits in arbitrary populations. While the origins of EGT lie in evolutionary biology, particularly in modelling individual contests in environments with limited resources, the framework has potential applications in fields as diverse as sociology, economics and linguistics, and adoption of the framework need not imply any sort of &amp;ldquo;biologism&amp;rdquo;, as I will argue.</description>
     </item>
     
     <item>
       <title>Assortative mixing, neutrality, and the shape of language change</title>
-      <link>/talks/SCCS2014/</link>
+      <link>http://henr.in/talks/SCCS2014/</link>
       <pubDate>Tue, 19 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/talks/SCCS2014/</guid>
+      <guid>http://henr.in/talks/SCCS2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The problem of implementation and its relation to the philosophy of cognitive science</title>
-      <link>/crumbs/ma/</link>
+      <link>http://henr.in/crumbs/ma/</link>
       <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/ma/</guid>
+      <guid>http://henr.in/crumbs/ma/</guid>
       <description>MA Thesis in Cognitive Science (2010, University of Helsinki).
  Open access  Abstract According to certain arguments, computation is observer-relative either in the sense that many physical systems implement many computations (Hilary Putnam), or in the sense that almost all physical systems implement all computations (John Searle). If sound, these arguments have a potentially devastating consequence for the computational theory of mind: if arbitrary physical systems can be seen to implement arbitrary computations, the notion of computation seems to lose all explanatory power as far as brains and minds are concerned.</description>
     </item>

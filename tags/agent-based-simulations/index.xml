@@ -2,30 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>agent-based simulations on Henri Kauhanen</title>
-    <link>/tags/agent-based-simulations/</link>
+    <link>http://henr.in/tags/agent-based-simulations/</link>
     <description>Recent content in agent-based simulations on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/agent-based-simulations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/agent-based-simulations/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>PopDyLan.jl</title>
-      <link>/bytes/PopDyLan.jl/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/bytes/PopDyLan.jl/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Neutral change</title>
-      <link>/papers/neutral-change/</link>
+      <link>http://henr.in/papers/neutral-change/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/papers/neutral-change/</guid>
+      <guid>http://henr.in/papers/neutral-change/</guid>
       <description>Language change is neutral if the probability of a language learner adopting any given linguistic variant only depends on the frequency of that variant in the learner’s environment. Ruling out non-neutral motivations of change, be they sociolinguistic, computational, articulatory or functional, a theory of neutral change insists that at least some instances of language change are essentially due to random drift, demographic noise and the social dynamics of finite populations; consequently, it has remained little investigated in the historical and sociolinguistics literature, which has generally been on the lookout for more substantial causes of change.</description>
     </item>
     

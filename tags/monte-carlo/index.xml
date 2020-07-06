@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>monte carlo on Henri Kauhanen</title>
-    <link>/tags/monte-carlo/</link>
+    <link>http://henr.in/tags/monte-carlo/</link>
     <description>Recent content in monte carlo on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/monte-carlo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>pbcm</title>
-      <link>/bytes/pbcm/</link>
+      <link>http://henr.in/bytes/pbcm/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/pbcm/</guid>
+      <guid>http://henr.in/bytes/pbcm/</guid>
       <description> An R package that implements the Parametric Bootstrap Cross-fitting Method (Wagenmakers et al. 2004).
 For installation instructions, function reference and a vignette, see the package website.
 References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. (2004) Assessing model mimicry using the parametric bootstrap. Journal of Mathematical Psychology, 48(1), 28–50. https://doi.org/10.1016/j.jmp.2003.11.004

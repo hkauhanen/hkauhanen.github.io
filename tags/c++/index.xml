@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>c&#43;&#43; on Henri Kauhanen</title>
-    <link>/tags/c&#43;&#43;/</link>
+    <link>http://henr.in/tags/c&#43;&#43;/</link>
     <description>Recent content in c&#43;&#43; on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adaptive dispersion via stochastic hill climbing</title>
-      <link>/crumbs/ad/</link>
+      <link>http://henr.in/crumbs/ad/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/ad/</guid>
+      <guid>http://henr.in/crumbs/ad/</guid>
       <description>1. Description 2. Illustration 3. Source code 4. Compilation and usage 5. R source for illustration   1. Description How to distribute \(n\) vowels in an acoustic space so that the average vowel-to-vowel distance is maximized? In a classical paper, Liljencrants and Lindblom proposed numerically minimizing the energy function
 \[E = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{1}{(x_i - x_j)^2 + (y_i - y_j)^2}\]
 where the \(x_i\) stand for the first and the \(y_i\) for the second formants (expressed in mel space, with second formants F3-corrected).</description>

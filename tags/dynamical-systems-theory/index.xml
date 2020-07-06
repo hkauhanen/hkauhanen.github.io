@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dynamical systems theory on Henri Kauhanen</title>
-    <link>/tags/dynamical-systems-theory/</link>
+    <link>http://henr.in/tags/dynamical-systems-theory/</link>
     <description>Recent content in dynamical systems theory on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/dynamical-systems-theory/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/tags/dynamical-systems-theory/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quantitative methods in historical linguistics</title>
-      <link>/teaching/quant2018/</link>
+      <link>http://henr.in/teaching/quant2018/</link>
       <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/quant2018/</guid>
+      <guid>http://henr.in/teaching/quant2018/</guid>
       <description>1. Course description 2. Slides 3. Tutorials 4. Portfolio exercises 5. Datasets 6. Scripts 7. Animations 7.1 NLS fit of logistic function 7.2 Error landscape of the fit    Undergraduate seminar given at the University of Konstanz, Summer semester 2018.
 1. Course description Recent years have witnessed a surge of formal and computational methods in the traditionally qualitative field of historical linguistics: these methods include quantitative tools for establishing language family relationships, describing patterns of change in historical corpora, and modelling change in the framework of dynamical systems theory.</description>
     </item>
     
     <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>/crumbs/phd/</link>
+      <link>http://henr.in/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/phd/</guid>
+      <guid>http://henr.in/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>

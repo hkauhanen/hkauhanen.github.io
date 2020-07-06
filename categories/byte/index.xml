@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>byte on Henri Kauhanen</title>
-    <link>/categories/byte/</link>
+    <link>http://henr.in/categories/byte/</link>
     <description>Recent content in byte on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/byte/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/categories/byte/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cre</title>
-      <link>/bytes/cre/</link>
+      <link>http://henr.in/bytes/cre/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/cre/</guid>
+      <guid>http://henr.in/bytes/cre/</guid>
       <description>An R package for fitting various models of the Constant Rate Effect, traditional (Kroch 1989) and non-traditional (Kauhanen &amp;amp; Walkden 2018), to linguistic data.
 See GitHub for installation and usage instructions.
 References Kauhanen, H. &amp;amp; Walkden, G. (2018) Deriving the Constant Rate Effect. Natural Language &amp;amp; Linguistic Theory, 36(2), 483–521.
@@ -25,10 +25,10 @@ Kroch, A. (1989) Reflexes of grammar in patterns of language change. Language Va
     
     <item>
       <title>hipster</title>
-      <link>/bytes/hipster/</link>
+      <link>http://henr.in/bytes/hipster/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/hipster/</guid>
+      <guid>http://henr.in/bytes/hipster/</guid>
       <description> A.k.a. Henri’s Idiosyncratic Package of Somewhat Tedious Everyday Routines. Implements a handful of R functions I wish were part of the default installation.
 Status Very much in research and development.
  Installation With devtools:
@@ -38,10 +38,10 @@ devtools::install_github(&amp;quot;hkauhanen/hipster&amp;quot;)  Usage Documenta
     
     <item>
       <title>pbcm</title>
-      <link>/bytes/pbcm/</link>
+      <link>http://henr.in/bytes/pbcm/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/pbcm/</guid>
+      <guid>http://henr.in/bytes/pbcm/</guid>
       <description> An R package that implements the Parametric Bootstrap Cross-fitting Method (Wagenmakers et al. 2004).
 For installation instructions, function reference and a vignette, see the package website.
 References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. (2004) Assessing model mimicry using the parametric bootstrap. Journal of Mathematical Psychology, 48(1), 28–50. https://doi.org/10.1016/j.jmp.2003.11.004
@@ -49,20 +49,11 @@ References Wagenmakers, E.-J., Ratcliff, R., Gomez, P. &amp;amp; Iverson, G. J. 
     </item>
     
     <item>
-      <title>PopDyLan.jl</title>
-      <link>/bytes/PopDyLan.jl/</link>
-      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/bytes/PopDyLan.jl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ritwals</title>
-      <link>/bytes/ritwals/</link>
+      <link>http://henr.in/bytes/ritwals/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/bytes/ritwals/</guid>
+      <guid>http://henr.in/bytes/ritwals/</guid>
       <description>ritwals provides an R interface to the data provided by the World Atlas of Language Structures, along with some convenience functions for language sampling, subsetting, areal typology, and so forth.
 For installation and usage instructions, consult the package website.</description>
     </item>

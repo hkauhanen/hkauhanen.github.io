@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crumbs on Henri Kauhanen</title>
-    <link>/crumbs/</link>
+    <link>http://henr.in/crumbs/</link>
     <description>Recent content in Crumbs on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/crumbs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://henr.in/crumbs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Language Dynamics Journal Club</title>
-      <link>/crumbs/journalclub/</link>
+      <link>http://henr.in/crumbs/journalclub/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/journalclub/</guid>
+      <guid>http://henr.in/crumbs/journalclub/</guid>
       <description>A(n approximately) fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
 Upcoming meetings 15/07/2020 TBA
 Past meetings (archive) 29/06/2020 Sóskuthy, M. (2015) Understanding change through stability: a computational study of sound change actuation. Lingua, 163, 40&amp;ndash;60. https://doi.org/10.1016/j.lingua.2015.05.010
@@ -24,58 +24,11 @@ Past meetings (archive) 29/06/2020 Sóskuthy, M. (2015) Understanding change thr
     </item>
     
     <item>
-      <title>Espresso: what I&#39;ve learned</title>
-      <link>/crumbs/espresso/</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/espresso/</guid>
-      <description>Life is too short for bad espresso Your grinder really is that important Avoid roasting extremes Don’t overdose Don’t expect espresso to behave linearly Be mindful of the properties of your water Keep it clean Daily Weekly Every 2 months Every 3 months  Be fair   With an average 12 kg per annum per capita consumption, Finns are known to take their coffee very seriously. My favourite method of preparation is the espresso, which I’ve been hooked on from about 2005, and which I’ve been making myself since 2019.</description>
-    </item>
-    
-    <item>
-      <title>How to get the best out of your Gran Gaggia</title>
-      <link>/crumbs/grangaggia/</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/grangaggia/</guid>
-      <description>“A mathematician is a device for turning coffee into theorems.” This statement by Alfréd Rényi (often misattributed to Erdős) can be adapted, I think, to describe the character of other kinds of scientists, too. Hence a post such as this may not be as off-topic on an academic webpage as might at first seem.
-This post, in particular, describes my experience chasing the Holy Grail of the perfect espresso using the budget Gran Gaggia espresso maker.</description>
-    </item>
-    
-    <item>
-      <title>Checkpointing R code for HTCondor</title>
-      <link>/crumbs/checkpointing/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/checkpointing/</guid>
-      <description>1. Intro 2. Usage 3. Full example 4. Source code   1. Intro HTCondor (Condor for short) is wonderful for running batch jobs whenever individual parallel instances of the batch do not need to communicate with each other — this can include Monte Carlo simulations, systematic sweeps over the parameter space of a dynamical system, and many kinds of complicated data analysis tasks. It is also ingenious, in the sense that it may be used to harness the dormant power of ordinary compute nodes when they are not otherwise in use (e.</description>
-    </item>
-    
-    <item>
-      <title>Setting PRNG seeds from noise</title>
-      <link>/crumbs/rng-seed-from-noise/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rng-seed-from-noise/</guid>
-      <description>blah</description>
-    </item>
-    
-    <item>
-      <title>Useful R functions</title>
-      <link>/crumbs/rfunctions/</link>
-      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/crumbs/rfunctions/</guid>
-      <description>\(1 + \int\)
-This is a catalogue of R functions that are particularly useful in the sort of work I tend to use R for – analysis of large, multidimensional datasets, including various kinds of Monte Carlo procedures, plus prototyping of computational simulations (and sometimes, when speed is not a major concern, actual simulations). Since I tend to either forget about the existence of these functions or how they are used, however, I thought it might be a good idea to collect them in one place (and this is a dynamic catalogue, meaning that I will be adding more useful functions as I stumble upon them).</description>
-    </item>
-    
-    <item>
       <title>Adaptive dispersion via stochastic hill climbing</title>
-      <link>/crumbs/ad/</link>
+      <link>http://henr.in/crumbs/ad/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/ad/</guid>
+      <guid>http://henr.in/crumbs/ad/</guid>
       <description>1. Description 2. Illustration 3. Source code 4. Compilation and usage 5. R source for illustration   1. Description How to distribute \(n\) vowels in an acoustic space so that the average vowel-to-vowel distance is maximized? In a classical paper, Liljencrants and Lindblom proposed numerically minimizing the energy function
 \[E = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{1}{(x_i - x_j)^2 + (y_i - y_j)^2}\]
 where the \(x_i\) stand for the first and the \(y_i\) for the second formants (expressed in mel space, with second formants F3-corrected).</description>
@@ -83,50 +36,50 @@ where the \(x_i\) stand for the first and the \(y_i\) for the second formants (e
     
     <item>
       <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
-      <link>/crumbs/phd/</link>
+      <link>http://henr.in/crumbs/phd/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/phd/</guid>
+      <guid>http://henr.in/crumbs/phd/</guid>
       <description>PhD Thesis in Linguistics (2018, The University of Manchester).
  Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
     </item>
     
     <item>
       <title>Plotting simplexes using R</title>
-      <link>/crumbs/simplex/</link>
+      <link>http://henr.in/crumbs/simplex/</link>
       <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/simplex/</guid>
+      <guid>http://henr.in/crumbs/simplex/</guid>
       <description>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies \(x_1\), \(x_2\) and \(x_3\) for which \(x_1 + x_2 + x_3 = 1\). This is most conveniently done on a 2-simplex (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.
 The function takes a minimum of four arguments: x and y are vectors holding the \(x_1\) and \(x_2\) values (it is not necessary to input the remaining, third value, as \(x_3 = 1 - x_1 - x_2\)); label is a vector of length 3 giving labels for the vertices of the simplex.</description>
     </item>
     
     <item>
       <title>Fixing LaTeX math commas</title>
-      <link>/crumbs/mathcomma/</link>
+      <link>http://henr.in/crumbs/mathcomma/</link>
       <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/mathcomma/</guid>
+      <guid>http://henr.in/crumbs/mathcomma/</guid>
       <description>If you use different fonts for text and math in your LaTeX documents (not generally recommended, but necessary if your favourite font does not come with mathematics support), you may have found yourself annoyed by having two differently shaped commas, one in text mode and the other in math mode. Here&amp;rsquo;s a demonstration with Times as the text font and Computer Modern as the math font:
 The vertices $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$\dots   A simple way of fixing this is to force math mode to use the text font comma.</description>
     </item>
     
     <item>
       <title>Evolutionary game theory</title>
-      <link>/crumbs/egt/</link>
+      <link>http://henr.in/crumbs/egt/</link>
       <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/egt/</guid>
+      <guid>http://henr.in/crumbs/egt/</guid>
       <description>Some thoughts on evolutionary game theory and its applicability in diachronic linguistics, originally prepared for Postgridiots in 2014.
  PDF  Abstract I review some basic concepts from Evolutionary Game Theory (EGT), a general mathematical framework for thinking about the competition and propagation of features or traits in arbitrary populations. While the origins of EGT lie in evolutionary biology, particularly in modelling individual contests in environments with limited resources, the framework has potential applications in fields as diverse as sociology, economics and linguistics, and adoption of the framework need not imply any sort of &amp;ldquo;biologism&amp;rdquo;, as I will argue.</description>
     </item>
     
     <item>
       <title>The problem of implementation and its relation to the philosophy of cognitive science</title>
-      <link>/crumbs/ma/</link>
+      <link>http://henr.in/crumbs/ma/</link>
       <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
       
-      <guid>/crumbs/ma/</guid>
+      <guid>http://henr.in/crumbs/ma/</guid>
       <description>MA Thesis in Cognitive Science (2010, University of Helsinki).
  Open access  Abstract According to certain arguments, computation is observer-relative either in the sense that many physical systems implement many computations (Hilary Putnam), or in the sense that almost all physical systems implement all computations (John Searle). If sound, these arguments have a potentially devastating consequence for the computational theory of mind: if arbitrary physical systems can be seen to implement arbitrary computations, the notion of computation seems to lose all explanatory power as far as brains and minds are concerned.</description>
     </item>
