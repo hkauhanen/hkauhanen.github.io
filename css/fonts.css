@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather'), local('Merriweather-Regular'),
+       url('../fonts/merriweather-v13-latin-regular.woff2') format('woff2'),
+       url('../fonts/merriweather-v13-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+       url('../fonts/lato-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/lato-v11-latin-regular.woff') format('woff');
+}
+body, div.photo-sidebar h1 {
+  font-family: 'Merriweather', serif;
+}
+h1, h2, h3, h4, h5, h6, .nav, .article-duration, .archive-item-link, .footer, span.photoinfofield, div.photo-sidebar {
+  font-family: 'Lato', sans-serif;
+}
+
+p.byte-lang {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+span.byte-single-lang {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+span.cat, span.catlist {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+span.article-date {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+span.article-date-halide-list {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+div.tags {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+a.archive-item-link {
+  font-family: 'Merriweather', serif;
+}

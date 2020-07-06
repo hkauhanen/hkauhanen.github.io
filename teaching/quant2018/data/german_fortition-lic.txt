@@ -1,0 +1,7 @@
+german_fortition.csv
+--------------------
+
+Data from:
+Glaser, E. (1985) Graphische Studien zum Schreibsprachwandel vom 13. bis 16. Jahrhundert. Heidelberg: Winter.
+
+Reproduced under fair use for teaching purposes.

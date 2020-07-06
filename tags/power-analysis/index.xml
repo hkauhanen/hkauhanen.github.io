@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>power analysis on Henri Kauhanen</title>
+    <link>http://henr.in/tags/power-analysis/</link>
+    <description>Recent content in power analysis on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/power-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>{Big|small} data, {big|small} theory? Some thoughts on the past, present and future of language dynamics</title>
+      <link>http://henr.in/talks/JourFixe2019/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/JourFixe2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

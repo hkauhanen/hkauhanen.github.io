@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Henri Kauhanen</title>
+    <link>http://henr.in/categories/</link>
+    <description>Recent content in Categories on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>byte</title>
+      <link>http://henr.in/categories/byte/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/byte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paper</title>
+      <link>http://henr.in/categories/paper/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>http://henr.in/categories/talk/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poster</title>
+      <link>http://henr.in/categories/poster/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crumb</title>
+      <link>http://henr.in/categories/crumb/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/crumb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>http://henr.in/categories/course/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/categories/course/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

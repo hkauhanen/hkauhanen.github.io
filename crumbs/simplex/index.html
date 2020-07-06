@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>Plotting simplexes using R - Henri Kauhanen</title>
+<meta property="og:title" content="Plotting simplexes using R - Henri Kauhanen">
+
+
+
+  
+  <meta property="description" content="How to plot simplexes in R base graphics.">
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  
+  <ul class="nav-links">
+    <li class="start"><a class="start" href="/">↺</a></li>
+    
+    <li class="paper">/ <a class="paper" href="/papers/">Papers</a></li>
+    
+    <li class="talk">/ <a class="talk" href="/talks/">Talks</a></li>
+    
+    <li class="crumb">/ <a class="crumb" href="/crumbs/">Crumbs</a></li>
+    
+    <li class="byte">/ <a class="byte" href="/bytes/">Bytes</a></li>
+    
+    <li class="teaching">/ <a class="teaching" href="/teaching/">Teaching</a></li>
+    
+    <li class="about">/ <a class="about" href="/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+
+<main class="content" role="main">
+
+  <article class="article">
+  
+    
+
+    <h1 class="article-title">Plotting simplexes using R</h1>
+
+    <span class="cat"><span class="cat-crumb">crumb</span></span> / <span class="article-date">4 May 2016</span>
+
+    
+    <div class="tags">
+      
+      <a class="tag" href="/tags/visualization">#visualization</a>
+      
+      <a class="tag" href="/tags/evolutionary-game-theory">#evolutionary game theory</a>
+      
+      <a class="tag" href="/tags/r">#r</a>
+      
+    </div>
+    
+
+    <div class="article-content">
+
+      
+
+
+<p>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies <span class="math inline">\(x_1\)</span>, <span class="math inline">\(x_2\)</span> and <span class="math inline">\(x_3\)</span> for which <span class="math inline">\(x_1 + x_2 + x_3 = 1\)</span>. This is most conveniently done on a <a href="http://en.wikipedia.org/wiki/Ternary_plot">2-simplex</a> (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.</p>
+<p>The function takes a minimum of four arguments: <code>x</code> and <code>y</code> are vectors holding the <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> values (it is not necessary to input the remaining, third value, as <span class="math inline">\(x_3 = 1 - x_1 - x_2\)</span>); <code>label</code> is a vector of length 3 giving labels for the vertices of the simplex. Additional arguments are passed to the base <code>plot</code> function.</p>
+<pre class="r"><code>simplex &lt;- function(x,
+                    y,
+                    label = expression(italic(x)[1], italic(x)[2], italic(x)[3]),
+                    ...) {
+  # empty plot
+  op &lt;- par(mar=c(1,0,0,0) + 0.1, pty=&quot;s&quot;)
+  plot(x=c(-0.2,1.2), y=c(-0.2,1.2), type=&quot;n&quot;, axes=FALSE, xlab=&quot;&quot;, ylab=&quot;&quot;)
+
+  # triangle (borders)
+  points(x=c(0,0.5,1,0), y=c(0,0.5*sqrt(3),0,0), type=&quot;l&quot;)
+
+  # transform the points
+  xx &lt;- 0.5*(1-x+y)
+  yy &lt;- 0.5*sqrt(3)*(1-x-y)
+
+  # plot points
+  points(x=xx, y=yy, ...)
+
+  # labels
+  if (!is.null(label)) {
+    text(x=0.5, y=0.5*sqrt(3), pos=3, labels=label[3])
+    text(x=0.0, y=0.0, pos=2, labels=label[1])
+    text(x=1.0, y=0.0, pos=4, labels=label[2])
+  }
+  
+  # restore plotting parameters
+  par(op)
+}</code></pre>
+<p>Here’s a demo:</p>
+<pre class="r"><code>x &lt;- seq(from=0, to=1, length.out=100)^2
+y &lt;- 0.5*(1-x) + rnorm(length(x), 0, 0.05*(1-x))
+simplex(x=x, y=y, type=&quot;l&quot;, lwd=2, col=&quot;red&quot;)</code></pre>
+<p><img src="/crumbs/simplex_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>This minimal procedure can easily be extended in the obvious ways, as in the following state diagram with vector field:</p>
+<p><img src="/crumbs/simplex/vfield.png" /></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div id="tagcloud">
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/adaptive-dispersion" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#adaptive-dispersion</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/c&#43;&#43;" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#c&#43;&#43;</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/cellular-automata" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.4323810470837115rem">#cellular-automata</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/computation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#computation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/constant-rate-effect" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.7750349199088276rem">#constant-rate-effect</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/dynamical-systems-theory" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#dynamical-systems-theory</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/evolutionary-game-theory" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#evolutionary-game-theory</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/fonts" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#fonts</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/geospatial-distributions" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#geospatial-distributions</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/latex" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#latex</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/logistic-regression" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#logistic-regression</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/monte-carlo" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#monte-carlo</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/networks" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5588443963669716rem">#networks</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/neutral-evolution" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#neutral-evolution</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/optimization" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#optimization</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/philosophy-of-mind" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#philosophy-of-mind</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/phonetics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#phonetics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/phylogenetics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#phylogenetics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/populations" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.3426538728251156rem">#populations</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/power-analysis" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#power-analysis</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/r" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#r</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/semantics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#semantics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/sound-change" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#sound-change</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stability-estimation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#stability-estimation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stable-variation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#stable-variation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/statistical-power" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#statistical-power</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/statistics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#statistics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stochastic-effects" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.3426538728251156rem">#stochastic-effects</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/typology" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5588443963669716rem">#typology</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/variational-learning" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.7750349199088276rem">#variational-learning</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/visualization" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#visualization</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/well-behavedness" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#well-behavedness</a></span>
+        
+    </div>
+
+
+
+
+                  <p class="foot"><a href="http://henr.in/">henr.in</a> (<a href="http://en.wikipedia.org/wiki/Finnish_language">F.</a> Henri.<span style="font-variant: small-caps;">gen</span>) &copy; 2016&ndash;2020 Henri Kauhanen.</p>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

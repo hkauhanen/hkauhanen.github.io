@@ -1,0 +1,14 @@
+asjp-small.csv
+--------------
+
+A version of the ASJP database containing only the lexical items in the
+40-item list and no metadata apart from language identifiers (i.e. the
+names of the languages). Prepared for teaching purposes.
+
+Licence:
+Creative Commons Attribution 4.0 International. 
+https://creativecommons.org/licenses/by/4.0/
+
+The original ASJP database:
+Wichmann, Søren, Eric W. Holman, and Cecil H. Brown (eds.). 2018.
+The ASJP Database (version 18). http://asjp.clld.org

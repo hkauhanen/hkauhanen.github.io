@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>latex on Henri Kauhanen</title>
+    <link>http://henr.in/tags/latex/</link>
+    <description>Recent content in latex on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 24 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing LaTeX math commas</title>
+      <link>http://henr.in/crumbs/mathcomma/</link>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/mathcomma/</guid>
+      <description>If you use different fonts for text and math in your LaTeX documents (not generally recommended, but necessary if your favourite font does not come with mathematics support), you may have found yourself annoyed by having two differently shaped commas, one in text mode and the other in math mode. Here&amp;rsquo;s a demonstration with Times as the text font and Computer Modern as the math font:
+The vertices $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$\dots   A simple way of fixing this is to force math mode to use the text font comma.</description>
+    </item>
+    
+  </channel>
+</rss>

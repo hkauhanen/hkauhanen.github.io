@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>Adaptive dispersion via stochastic hill climbing - Henri Kauhanen</title>
+<meta property="og:title" content="Adaptive dispersion via stochastic hill climbing - Henri Kauhanen">
+
+
+
+  
+  <meta property="description" content="An implementation of adaptive dispersion in C&#43;&#43;, using stochastic hill climbing.">
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  
+  <ul class="nav-links">
+    <li class="start"><a class="start" href="/">↺</a></li>
+    
+    <li class="paper">/ <a class="paper" href="/papers/">Papers</a></li>
+    
+    <li class="talk">/ <a class="talk" href="/talks/">Talks</a></li>
+    
+    <li class="crumb">/ <a class="crumb" href="/crumbs/">Crumbs</a></li>
+    
+    <li class="byte">/ <a class="byte" href="/bytes/">Bytes</a></li>
+    
+    <li class="teaching">/ <a class="teaching" href="/teaching/">Teaching</a></li>
+    
+    <li class="about">/ <a class="about" href="/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+
+<main class="content" role="main">
+
+  <article class="article">
+  
+    
+
+    <h1 class="article-title">Adaptive dispersion via stochastic hill climbing</h1>
+
+    <span class="cat"><span class="cat-crumb">crumb</span></span> / <span class="article-date">4 September 2018</span>
+
+    
+    <div class="tags">
+      
+      <a class="tag" href="/tags/adaptive-dispersion">#adaptive dispersion</a>
+      
+      <a class="tag" href="/tags/phonetics">#phonetics</a>
+      
+      <a class="tag" href="/tags/optimization">#optimization</a>
+      
+      <a class="tag" href="/tags/c&#43;&#43;">#c&#43;&#43;</a>
+      
+      <a class="tag" href="/tags/r">#r</a>
+      
+    </div>
+    
+
+    <div class="article-content">
+
+      
+
+<div id="TOC">
+<ul>
+<li><a href="#description">1. Description</a></li>
+<li><a href="#illustration">2. Illustration</a></li>
+<li><a href="#source-code">3. Source code</a></li>
+<li><a href="#compilation-and-usage">4. Compilation and usage</a></li>
+<li><a href="#r-source-for-illustration">5. R source for illustration</a></li>
+</ul>
+</div>
+
+<div id="description" class="section level2">
+<h2>1. Description</h2>
+<p>How to distribute <span class="math inline">\(n\)</span> vowels in an acoustic space so that the average vowel-to-vowel distance is maximized? In a <a href="https://www.jstor.org/stable/411991">classical paper</a>, Liljencrants and Lindblom proposed numerically minimizing the energy function</p>
+<p><span class="math display">\[E = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{1}{(x_i - x_j)^2 + (y_i - y_j)^2}\]</span></p>
+<p>where the <span class="math inline">\(x_i\)</span> stand for the first and the <span class="math inline">\(y_i\)</span> for the second formants (expressed in mel space, with second formants F3-corrected). In the paper, <span class="math inline">\(E\)</span> was minimized in a semi-guided manner by first distributing the <span class="math inline">\(n\)</span> vowels on a circle in the centre of the vowel space and then moving the vowels towards the periphery (defined by a model of the articulators) as long as <span class="math inline">\(E\)</span> was diminishing.</p>
+<p>A conceptually simpler way is to throw <span class="math inline">\(n\)</span> vowels into the space at random, and then minimize <span class="math inline">\(E\)</span> by making random improvements to the vowels (stochastic <a href="https://en.wikipedia.org/wiki/Hill_climbing">hill climbing</a>). Here I give C++ code for a program that does this, in the hopes that this may be useful in teaching (to illustrate the theory of adaptive dispersion, and also to introduce optimization by way of hill climbing), or even in research. The logic of the program is as follows:</p>
+<ol style="list-style-type: decimal">
+<li>Distribute <span class="math inline">\(n\)</span> vowels in the two-dimensional space at random.</li>
+<li>For a desired number of iterations:
+<ol style="list-style-type: decimal">
+<li>Pick a random vowel</li>
+<li>Move this vowel in a random direction</li>
+<li>If vowel ended up outside the articulatorily possible space, try another random direction and move by just half the amount.</li>
+<li>If energy <span class="math inline">\(E\)</span> diminished, leave vowel at this new position; otherwise, move vowel back to its original position</li>
+</ol></li>
+</ol>
+</div>
+<div id="illustration" class="section level2">
+<h2>2. Illustration</h2>
+<p>Here’s an illustration of the operation of the algorithm, with <span class="math inline">\(n=9\)</span> vowels optimized over five thousand iterations. Thanks to advances in modern computing, it took my modest laptop (2.4 GHz, 4GB RAM) just three hundreths of a second to run the optimization (cp. Liljencrants and Lindblom’s original statement: “the computer was left overnight to compute the solutions for <span class="math inline">\(n=3\)</span> to <span class="math inline">\(n=12\)</span>”; p. 842). So this is pretty fast. (The more interesting problem is that the algorithm may get stuck at local optima; more about that in a later crumb…)</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UzgMw3SJn2s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</div>
+<div id="source-code" class="section level2">
+<h2>3. Source code</h2>
+<p>(<a href="ad.cpp">download</a>)</p>
+<pre class="c"><code>/* ad.cpp / Henri Kauhanen 2018
+ *
+ * Adaptive dispersion via stochastic hill climbing.
+ *
+ * To compile:
+ * g++ -std=c++11 ad.cpp -o ad
+ *
+ * Usage:
+ * ./ad -n &lt;vowels&gt; -i &lt;iterations&gt; -o &lt;outfile&gt; [-l &lt;logfile&gt;] [-m &lt;movement&gt;]
+ *
+ * Original idea:
+ * Liljencrants, J. &amp; Lindblom, B. (1972) Numerical simulation of vowel
+ * quality systems: the role of perceptual contrast. Language, 48(4):839-862.
+ *
+ */
+
+
+#include &lt;iostream&gt;
+#include &lt;fstream&gt;
+#include &lt;unistd.h&gt;
+#include &lt;cmath&gt;
+#include &lt;random&gt;
+#include &lt;string&gt;
+
+
+// contour formula
+double contour(double M1value, double M1lim[2], double M20) {
+  return(1150 + (M20 - 1150)*sqrt((M1lim[1] - M1value)/(M1lim[1] - M1lim[0])));
+}
+
+// is point x inside the vowel contours?
+bool inside(double m1, double m2, double M1lim[2], double M2lim[2]) {
+  bool ins = true;
+  if (m1 &lt; M1lim[0] || m1 &gt; M1lim[1]) {
+    ins = false;
+  } else if (m2 &gt; contour(m1, M1lim, M2lim[1])) {
+    ins = false;
+  } else if (m2 &lt; contour(m1, M1lim, M2lim[0])) {
+    ins = false;
+  }
+  return(ins);
+}
+
+// calculate total system energy
+double energy(double M1[], double M2[], int n) {
+  double E = 0;
+  for (int i=0; i&lt;n-1; i++) {
+    for (int j=i+1; j&lt;n; j++) {
+      E = E + 1/(pow(M1[i] - M1[j], 2) + pow(M2[i] - M2[j], 2));
+    }
+  }
+  return(E);
+}
+
+// print usage instructions
+void usage(char *argv[]) {
+  fprintf(stderr, &quot;Usage: %s -n &lt;vowels&gt; -i &lt;iterations&gt; -o &lt;outfile&gt; [-l &lt;logfile&gt;] [-m &lt;movement&gt;]\n&quot;, argv[0]);
+}
+
+// main
+int main(int argc, char *argv[]) {
+  // global variables
+  int iterations = -1;        // number of iterations
+  int n = -1;                 // number of vowels
+  double curr_energy;         // current system energy
+  double log_energy;          // current system energy; for logging
+  int rv;                     // random vowel
+  int opt;                    // getopt
+  double movement = 10;       // movement multiplier
+  double movehere;            // local movement
+
+  // vowel trapezium limits, from Liljencrants &amp; Lindblom
+  double M1lim[2] = {350, 850};
+  double M2lim[2] = {800, 1700};
+
+  // file names and file streams
+  std::string outfilename = &quot;&quot;;
+  std::string logfilename = &quot;&quot;;
+  std::ofstream outfile;
+  std::ofstream logfile;
+
+  // read command-line arguments
+  while ((opt = getopt(argc, argv, &quot;i:n:o:l:m:&quot;)) != -1) {
+    switch (opt) {
+      case &#39;i&#39;:
+        iterations = atoi(optarg);
+        break;
+      case &#39;n&#39;:
+        n = atoi(optarg);
+        break;
+      case &#39;o&#39;:
+        outfilename = optarg;
+        break;
+      case &#39;l&#39;:
+        logfilename = optarg;
+        break;
+      case &#39;m&#39;:
+        movement = atof(optarg);
+        break;
+      default:
+        usage(argv);
+        exit(EXIT_FAILURE);
+    }
+  }
+
+  // check mandatory command-line arguments
+  if (iterations == -1) {
+    usage(argv);
+    exit(EXIT_FAILURE);
+  }
+  if (n == -1) {
+    usage(argv);
+    exit(EXIT_FAILURE);
+  }
+  if (outfilename == &quot;&quot;) {
+    usage(argv);
+    exit(EXIT_FAILURE);
+  }
+
+  // RNG stuff
+  std::random_device rd;  // seed
+  std::mt19937 gen(rd()); // Mersenne Twister generator
+  std::uniform_real_distribution&lt;double&gt; disM1(M1lim[0], M1lim[1]);
+  std::uniform_real_distribution&lt;double&gt; disM2(M2lim[0], M2lim[1]);
+  std::uniform_int_distribution&lt;int&gt; disDisc(0,n-1);
+  std::normal_distribution&lt;double&gt; disNorm(0,1);
+
+  // declare dynamic M1 and M2 arrays
+  double* M1 = new double[n];
+  double* M2 = new double[n];
+
+  // place n vowels randomly inside the contours
+  for (int i=0; i&lt;n; i++) {
+    M1[i] = M1lim[0] - 1;
+    M2[i] = M2lim[0] - 1;
+    while (!inside(M1[i], M2[i], M1lim, M2lim)) {
+      M1[i] = disM1(gen);
+      M2[i] = disM2(gen);
+    }
+  }
+
+  // main loop
+  double newM1;
+  double newM2;
+  double oldM1;
+  double oldM2;
+  double oldmovehere;
+  if (logfilename != &quot;&quot;) {
+    logfile.open(logfilename);
+    logfile &lt;&lt; &quot;iteration,M1,M2prime,energy\n&quot;;
+    log_energy = energy(M1, M2, n);
+    for (int i=0; i&lt;n; i++) {
+      logfile &lt;&lt; 0 &lt;&lt; &quot;,&quot; &lt;&lt; M1[i] &lt;&lt; &quot;,&quot; &lt;&lt; M2[i] &lt;&lt; &quot;,&quot; &lt;&lt; log_energy &lt;&lt; &quot;\n&quot;;
+    }
+  }
+  for (int t=0; t&lt;iterations; t++) {
+    // find current system energy
+    curr_energy = energy(M1, M2, n);
+
+    // pick random vowel
+    rv = disDisc(gen);
+
+    // move vowel
+    movehere = movement;
+    newM1 = M1[rv] + disNorm(gen)*movehere;
+    newM2 = M2[rv] + disNorm(gen)*movehere;
+
+    // still inside contours?
+    oldmovehere = movehere;
+    while (!inside(newM1, newM2, M1lim, M2lim)) {
+      movehere = 0.5*movehere;
+      newM1 = M1[rv] + disNorm(gen)*movehere;
+      newM2 = M2[rv] + disNorm(gen)*movehere;
+    }
+    movehere = oldmovehere;
+
+    // if energy decreased, update
+    oldM1 = M1[rv];
+    oldM2 = M2[rv];
+    M1[rv] = newM1;
+    M2[rv] = newM2;
+    if (energy(M1, M2, n) &gt;= curr_energy) {
+      M1[rv] = oldM1;
+      M2[rv] = oldM2;
+    }
+
+    // log
+    if (logfilename != &quot;&quot;) {
+      log_energy = energy(M1, M2, n);
+      for (int i=0; i&lt;n; i++) {
+        logfile &lt;&lt; t+1 &lt;&lt; &quot;,&quot; &lt;&lt; M1[i] &lt;&lt; &quot;,&quot; &lt;&lt; M2[i] &lt;&lt; &quot;,&quot; &lt;&lt; log_energy &lt;&lt; &quot;\n&quot;;
+      }
+    }
+  }
+
+  // writeout
+  outfile.open(outfilename);
+  outfile &lt;&lt; &quot;M1,M2prime\n&quot;;
+  for (int i=0; i&lt;n; i++) {
+    outfile &lt;&lt; M1[i] &lt;&lt; &quot;,&quot; &lt;&lt; M2[i] &lt;&lt; &quot;\n&quot;;
+  }
+
+  // exit
+  delete[] M1;
+  delete[] M2;
+  outfile.close();
+  if (logfilename != &quot;&quot;) {
+    logfile.close();
+  }
+  return 0;
+}</code></pre>
+</div>
+<div id="compilation-and-usage" class="section level2">
+<h2>4. Compilation and usage</h2>
+<p>ISO C++ 2011 support is required. To compile with <a href="https://gcc.gnu.org/">GCC</a>, try:</p>
+<pre class="bash"><code>g++ -std=c++11 ad.cpp -o ad</code></pre>
+<p>To call the program, use:</p>
+<pre class="bash"><code>./ad -n &lt;vowels&gt; -i &lt;iterations&gt; -o &lt;outfile&gt;</code></pre>
+<p>where <code>&lt;vowels&gt;</code> is the number of vowels to distribute in the space, <code>&lt;iterations&gt;</code> is the number of hill climbing iterations, and <code>&lt;outfile&gt;</code> is the name of the output file (a CSV file of vowel formants).</p>
+<p>An optional <code>-l</code> (log) argument is available for tracing the evolution of the hill climbing algorithm iteration by iteration:</p>
+<pre class="bash"><code>./ad -n &lt;vowels&gt; -i &lt;iterations&gt; -o &lt;outfile&gt; -l &lt;logfile&gt;</code></pre>
+<p>Finally, the optional <code>-m</code> argument may be used to control the hill climbing step size:</p>
+<pre class="bash"><code>./ad -n &lt;vowels&gt; -i &lt;iterations&gt; -o &lt;outfile&gt; -l &lt;logfile&gt; -m &lt;M&gt;</code></pre>
+<p>A vowel <span class="math inline">\((x,y)\)</span> is moved to <span class="math inline">\((x + shM, y + shM)\)</span>, where <span class="math inline">\(s\)</span> is sampled from the normal distribution with mean <span class="math inline">\(0\)</span> and standard deviation <span class="math inline">\(1\)</span>, and <span class="math inline">\(h\)</span> (initially <span class="math inline">\(h=1\)</span>) is halved every time the vowel ends up outside the articulatory bounds. By default, <span class="math inline">\(M\)</span> has the value <span class="math inline">\(M = 10\)</span>.</p>
+</div>
+<div id="r-source-for-illustration" class="section level2">
+<h2>5. R source for illustration</h2>
+<p>The following code was used to prepare the above animation (<a href="https://libav.org/avconv.html">avconv</a> required).</p>
+<p>(<a href="ad_illustration.R">download</a>)</p>
+<pre class="r"><code>make_animation &lt;- function(logfile,
+                           tmpfolder,
+                           outfile,
+                           fps = 50,
+                           width = 1600,
+                           height = 800,
+                           pointsize = 28) {
+  grid &lt;- read.csv(logfile)
+  png(file=paste0(tmpfolder, &quot;/tmp%05d.png&quot;), width=width, height=height, pointsize=pointsize)
+  par(mfcol=c(1,2))
+
+  # plot initial state for a while
+  for (i in 1:(2*fps)) {
+    plot_LL_space(grid[grid$iteration==0, ])
+    plot_energy_until(grid, until_iteration=0)
+  }
+
+  # now set animation in motion
+  for (i in unique(grid$iteration)) {
+    plot_LL_space(grid[grid$iteration==i, ])
+    plot_energy_until(grid, until_iteration=i)
+  }
+
+  # plot final state for a while
+  for (i in 1:(2*fps)) {
+    plot_LL_space(grid[grid$iteration==max(grid$iteration), ])
+    plot_energy_until(grid, until_iteration=max(grid$iteration))
+  }
+
+  dev.off()
+  system(paste0(&quot;avconv -r &quot;, fps, &quot; -i &quot;, tmpfolder, &quot;/tmp%05d.png -qscale 1 &quot;, outfile))
+}
+
+plot_LL_space &lt;- function(grid,
+                          pch = 21,
+                          bg = &quot;&quot;,
+                          cex = 1.2,
+                          contours = TRUE,
+                          lwd = 1.5,
+                          lwd.cont = 1.5,
+                          M1lim = c(350, 850),
+                          M2lim = c(800, 1700)) {
+  # prepare plot
+  plot(M1~M2prime,
+       grid,
+       xlim=rev(M2lim),
+       ylim=rev(M1lim),
+       xlab=&quot;M2&#39;&quot;,
+       ylab=&quot;M1&quot;,
+       type=&quot;n&quot;,
+       main=&quot;Vowel space (mel)&quot;)
+  if (bg == &quot;&quot;) {
+    bg &lt;- rainbow(nrow(grid))
+  }
+
+  # plot contours
+  if (contours) {
+    segments(y0=M1lim[1], y1=M1lim[1], x0=M2lim[2], x1=M2lim[1], lwd=lwd.cont)
+    x &lt;- seq(from=M2lim[2], to=1150)
+    lines(x, M1lim[2] - (M1lim[2]-M1lim[1])*((x - 1150)/(M2lim[2] - 1150))^2, lwd=lwd.cont)
+    x &lt;- seq(from=1150, to=M2lim[1])
+    lines(x, M1lim[2] - (M1lim[2]-M1lim[1])*((x - 1150)/(M2lim[1] - 1150))^2, lwd=lwd.cont)
+  }
+
+  # plot vowels
+  points(M1~M2prime, grid, pch=pch, cex=cex, lwd=lwd, bg=bg)
+}
+
+plot_energy_until &lt;- function(grid,
+                              until_iteration,
+                              lwd = 1.2) {
+  maxiter &lt;- max(grid$iteration)
+  maxenergy &lt;- max(grid$energy)
+  minenergy &lt;- min(grid$energy)
+  grid &lt;- grid[, c(&quot;iteration&quot;, &quot;energy&quot;)]
+  grid &lt;- grid[grid$iteration &lt;= until_iteration, ]
+  grid &lt;- grid[!duplicated(grid), ]
+  if (until_iteration == 0) {
+    plot(energy~iteration, grid, type=&quot;n&quot;, log=&quot;xy&quot;, xlim=c(1, maxiter), ylim=c(minenergy, maxenergy), lwd=lwd, main=&quot;Energy evolution&quot;)
+  } else {
+    plot(energy~iteration, grid, type=&quot;l&quot;, log=&quot;xy&quot;, xlim=c(1, maxiter), ylim=c(minenergy, maxenergy), lwd=lwd, main=&quot;Energy evolution&quot;)
+    points(energy~iteration, grid[nrow(grid),], pch=20)
+  }
+  text(x=0.8, y=minenergy, pos=4, labels=paste0(&quot;iteration: &quot;, until_iteration), cex=0.9)
+}</code></pre>
+</div>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//henrin.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+</main>
+
+      <footer class="footer">
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <div id="tagcloud">
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/adaptive-dispersion" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#adaptive-dispersion</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/c&#43;&#43;" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#c&#43;&#43;</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/cellular-automata" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.4323810470837115rem">#cellular-automata</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/computation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#computation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/constant-rate-effect" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.7750349199088276rem">#constant-rate-effect</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/dynamical-systems-theory" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#dynamical-systems-theory</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/evolutionary-game-theory" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#evolutionary-game-theory</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/fonts" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#fonts</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/geospatial-distributions" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#geospatial-distributions</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/latex" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#latex</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/logistic-regression" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#logistic-regression</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/monte-carlo" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#monte-carlo</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/networks" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5588443963669716rem">#networks</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/neutral-evolution" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#neutral-evolution</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/optimization" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#optimization</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/philosophy-of-mind" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#philosophy-of-mind</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/phonetics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#phonetics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/phylogenetics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#phylogenetics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/populations" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.3426538728251156rem">#populations</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/power-analysis" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#power-analysis</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/r" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#r</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/semantics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#semantics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/sound-change" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#sound-change</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stability-estimation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#stability-estimation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stable-variation" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5019788504602427rem">#stable-variation</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/statistical-power" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#statistical-power</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/statistics" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.2161905235418558rem">#statistics</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/stochastic-effects" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.3426538728251156rem">#stochastic-effects</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/typology" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.5588443963669716rem">#typology</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/variational-learning" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.7750349199088276rem">#variational-learning</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/visualization" style="margin-right: 1em; border: none; text-decoration: none; font-size:1rem">#visualization</a></span>
+        
+            
+            
+            
+            
+            
+            
+            <span style="white-space: nowrap; font-style: italic;"><a href="/tags/well-behavedness" style="margin-right: 1em; border: none; text-decoration: none; font-size:1.6069235303674392rem">#well-behavedness</a></span>
+        
+    </div>
+
+
+
+
+                  <p class="foot"><a href="http://henr.in/">henr.in</a> (<a href="http://en.wikipedia.org/wiki/Finnish_language">F.</a> Henri.<span style="font-variant: small-caps;">gen</span>) &copy; 2016&ndash;2020 Henri Kauhanen.</p>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

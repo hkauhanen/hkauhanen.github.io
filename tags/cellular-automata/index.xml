@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cellular automata on Henri Kauhanen</title>
+    <link>http://henr.in/tags/cellular-automata/</link>
+    <description>Recent content in cellular automata on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/cellular-automata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>http://henr.in/papers/tau/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/papers/tau/</guid>
+      <description>Different structural features of human language change at different rates and thus exhibit different temporal stabilities. Existing methods of linguistic stability estimation depend upon the prior genealogical classification of the world&amp;rsquo;s languages into language families; these methods result in unreliable stability estimates for features which are sensitive to horizontal transfer between families and whenever data are aggregated from families of divergent time depths. To overcome these problems, we describe a method of stability estimation without family classifications, based on mathematical modelling and the analysis of contemporary geospatial distributions of linguistic features.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>http://henr.in/talks/SPLEV2019/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/SPLEV2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
+      <link>http://henr.in/crumbs/phd/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/phd/</guid>
+      <description>PhD Thesis in Linguistics (2018, The University of Manchester).
+ Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
+    </item>
+    
+    <item>
+      <title>Spatial distributions of linguistic features are determined by the interaction of endogenous and exogenous dynamics</title>
+      <link>http://henr.in/talks/ICCSS2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/ICCSS2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

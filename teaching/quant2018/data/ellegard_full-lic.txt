@@ -1,0 +1,7 @@
+ellegard_full.csv
+-----------------
+
+Data from:
+Ellegård, A. (1953) The auxiliary do: The establishment and regulation of its use in English. Stockholm: Almqvist & Wiksell.
+
+Reproduced under fair use for teaching purposes.

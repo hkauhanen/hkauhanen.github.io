@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phylogenetics on Henri Kauhanen</title>
+    <link>http://henr.in/tags/phylogenetics/</link>
+    <description>Recent content in phylogenetics on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/phylogenetics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantitative methods in historical linguistics</title>
+      <link>http://henr.in/teaching/quant2018/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/teaching/quant2018/</guid>
+      <description>1. Course description 2. Slides 3. Tutorials 4. Portfolio exercises 5. Datasets 6. Scripts 7. Animations 7.1 NLS fit of logistic function 7.2 Error landscape of the fit    Undergraduate seminar given at the University of Konstanz, Summer semester 2018.
+1. Course description Recent years have witnessed a surge of formal and computational methods in the traditionally qualitative field of historical linguistics: these methods include quantitative tools for establishing language family relationships, describing patterns of change in historical corpora, and modelling change in the framework of dynamical systems theory.</description>
+    </item>
+    
+  </channel>
+</rss>

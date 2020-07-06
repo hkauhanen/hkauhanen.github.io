@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistical power on Henri Kauhanen</title>
+    <link>http://henr.in/tags/statistical-power/</link>
+    <description>Recent content in statistical power on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/statistical-power/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When is a constant rate truly constant? A Monte Carlo power analysis of the logistic operationalization of Constant Rate Effects</title>
+      <link>http://henr.in/talks/RUSE2019/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/RUSE2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting constant rates of change in language: an a priori Monte Carlo power analysis</title>
+      <link>http://henr.in/talks/ICCSS2019/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/ICCSS2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+wals_IE.csv
+-----------
+
+A selection of features in 17 Indo-European languages, from the WALS atlas.
+Prepared for teaching purposes.
+
+Licence:
+Creative Commons Attribution 4.0 International. 
+https://creativecommons.org/licenses/by/4.0/
+
+The original WALS database:
+Dryer, Matthew S. & Haspelmath, M. (eds.) (2013) The World Atlas of Language
+Structures Online. Leipzig: Max Planck Institute for Evolutionary Anthropology.
+http://wals.info

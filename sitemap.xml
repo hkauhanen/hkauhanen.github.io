@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://henr.in/categories/byte/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/bytes/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/constant-rate-effect/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/bytes/cre/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/bytes/hipster/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/monte-carlo/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/bytes/pbcm/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/r/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/bytes/ritwals/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/statistics/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/typology/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/cellular-automata/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/geospatial-distributions/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/papers/tau/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/paper/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/papers/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/stability-estimation/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/power-analysis/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/talk/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/JourFixe2019/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/logistic-regression/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/statistical-power/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/RUSE2019/</loc>
+    <lastmod>2019-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/ICCSS2019/</loc>
+    <lastmod>2019-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/poster/</loc>
+    <lastmod>2019-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/well-behavedness/</loc>
+    <lastmod>2019-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/UoMDigHum2019/</loc>
+    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/evolutionary-game-theory/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/populations/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/stable-variation/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/papers/stable-variation/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/variational-learning/</loc>
+    <lastmod>2019-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/about/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/SPLEV2019/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/</loc>
+    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/start/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/adaptive-dispersion/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/ad/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/c&#43;&#43;/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/crumb/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/optimization/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/phonetics/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/categories/course/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/dynamical-systems-theory/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/phylogenetics/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/teaching/quant2018/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/teaching/</loc>
+    <lastmod>2018-09-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/phd/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/networks/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/neutral-evolution/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/stochastic-effects/</loc>
+    <lastmod>2018-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/papers/deriving-cre/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/XLanS2017/</loc>
+    <lastmod>2017-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/ICCSS2017/</loc>
+    <lastmod>2017-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/FWAV2017/</loc>
+    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/papers/neutral-change/</loc>
+    <lastmod>2017-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/WSC2017/</loc>
+    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/sound-change/</loc>
+    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/semantics/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/LSA2017/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/LAGB2016/</loc>
+    <lastmod>2016-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/DiGS2016/</loc>
+    <lastmod>2016-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/DiGS2016ws/</loc>
+    <lastmod>2016-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/NWASV2016/</loc>
+    <lastmod>2016-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/simplex/</loc>
+    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/visualization/</loc>
+    <lastmod>2016-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/GLOW2016/</loc>
+    <lastmod>2016-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/mathcomma/</loc>
+    <lastmod>2016-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/fonts/</loc>
+    <lastmod>2016-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/latex/</loc>
+    <lastmod>2016-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/baddata2016/</loc>
+    <lastmod>2016-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/LAGB2015/</loc>
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/ICHL2015/</loc>
+    <lastmod>2015-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/ICCSS2015/</loc>
+    <lastmod>2015-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/mFiL2014/</loc>
+    <lastmod>2014-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/egt/</loc>
+    <lastmod>2014-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/talks/SCCS2014/</loc>
+    <lastmod>2014-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/computation/</loc>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/tags/philosophy-of-mind/</loc>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/crumbs/ma/</loc>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://henr.in/phototags/</loc>
+  </url>
+  
+</urlset>

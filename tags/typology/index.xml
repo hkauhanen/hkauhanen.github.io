@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typology on Henri Kauhanen</title>
+    <link>http://henr.in/tags/typology/</link>
+    <description>Recent content in typology on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/tags/typology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ritwals</title>
+      <link>http://henr.in/bytes/ritwals/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/bytes/ritwals/</guid>
+      <description>ritwals provides an R interface to the data provided by the World Atlas of Language Structures, along with some convenience functions for language sampling, subsetting, areal typology, and so forth.
+For installation and usage instructions, consult the package website.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>http://henr.in/papers/tau/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/papers/tau/</guid>
+      <description>Different structural features of human language change at different rates and thus exhibit different temporal stabilities. Existing methods of linguistic stability estimation depend upon the prior genealogical classification of the world&amp;rsquo;s languages into language families; these methods result in unreliable stability estimates for features which are sensitive to horizontal transfer between families and whenever data are aggregated from families of divergent time depths. To overcome these problems, we describe a method of stability estimation without family classifications, based on mathematical modelling and the analysis of contemporary geospatial distributions of linguistic features.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>http://henr.in/talks/SPLEV2019/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/SPLEV2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantitative methods in historical linguistics</title>
+      <link>http://henr.in/teaching/quant2018/</link>
+      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/teaching/quant2018/</guid>
+      <description>1. Course description 2. Slides 3. Tutorials 4. Portfolio exercises 5. Datasets 6. Scripts 7. Animations 7.1 NLS fit of logistic function 7.2 Error landscape of the fit    Undergraduate seminar given at the University of Konstanz, Summer semester 2018.
+1. Course description Recent years have witnessed a surge of formal and computational methods in the traditionally qualitative field of historical linguistics: these methods include quantitative tools for establishing language family relationships, describing patterns of change in historical corpora, and modelling change in the framework of dynamical systems theory.</description>
+    </item>
+    
+    <item>
+      <title>Spatial distributions of linguistic features are determined by the interaction of endogenous and exogenous dynamics</title>
+      <link>http://henr.in/talks/ICCSS2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/ICCSS2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two types of states: a cross-linguistic study of change-of-state verb roots</title>
+      <link>http://henr.in/talks/LSA2017/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/LSA2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

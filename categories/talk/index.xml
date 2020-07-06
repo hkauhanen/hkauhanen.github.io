@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talk on Henri Kauhanen</title>
+    <link>http://henr.in/categories/talk/</link>
+    <description>Recent content in talk on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/categories/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>{Big|small} data, {big|small} theory? Some thoughts on the past, present and future of language dynamics</title>
+      <link>http://henr.in/talks/JourFixe2019/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/JourFixe2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When is a constant rate truly constant? A Monte Carlo power analysis of the logistic operationalization of Constant Rate Effects</title>
+      <link>http://henr.in/talks/RUSE2019/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/RUSE2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to measure the speed of linguistic change?</title>
+      <link>http://henr.in/talks/UoMDigHum2019/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/UoMDigHum2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geospatial distributions reflect rates of evolution of features of language</title>
+      <link>http://henr.in/talks/SPLEV2019/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/SPLEV2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parsing advantage as the determinant of change and stability? Some problems of the variational model of language change</title>
+      <link>http://henr.in/talks/XLanS2017/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/XLanS2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial distributions of linguistic features are determined by the interaction of endogenous and exogenous dynamics</title>
+      <link>http://henr.in/talks/ICCSS2017/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/ICCSS2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grammar competition in neutral learning: a reply to Han et al. (2016)</title>
+      <link>http://henr.in/talks/FWAV2017/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/FWAV2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two types of states: a cross-linguistic study of change-of-state verb roots</title>
+      <link>http://henr.in/talks/LSA2017/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/LSA2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naive parameter diachrony, with and without biases</title>
+      <link>http://henr.in/talks/LAGB2016/</link>
+      <pubDate>Tue, 06 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/LAGB2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A production bias model of the Constant Rate Effect</title>
+      <link>http://henr.in/talks/DiGS2016/</link>
+      <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/DiGS2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stable variation arises from noisy across-population bias distributions in the absence of global bias</title>
+      <link>http://henr.in/talks/DiGS2016ws/</link>
+      <pubDate>Tue, 28 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/DiGS2016ws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A production bias model of the Constant Rate Effect</title>
+      <link>http://henr.in/talks/NWASV2016/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/NWASV2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A production bias model of the Constant Rate Effect</title>
+      <link>http://henr.in/talks/GLOW2016/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/GLOW2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Signal or noise? Biases, interactions and the Constant Rate Effect</title>
+      <link>http://henr.in/talks/baddata2016/</link>
+      <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/baddata2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neutral change is a characteristic property of clusterized language communities</title>
+      <link>http://henr.in/talks/LAGB2015/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/LAGB2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A population dynamic mechanism for the Constant Rate Effect (and beyond)</title>
+      <link>http://henr.in/talks/ICHL2015/</link>
+      <pubDate>Mon, 27 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/ICHL2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platonic and Heraclitean language change: chasing the S-curve through community structure</title>
+      <link>http://henr.in/talks/mFiL2014/</link>
+      <pubDate>Thu, 13 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/talks/mFiL2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crumb on Henri Kauhanen</title>
+    <link>http://henr.in/categories/crumb/</link>
+    <description>Recent content in crumb on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://henr.in/categories/crumb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adaptive dispersion via stochastic hill climbing</title>
+      <link>http://henr.in/crumbs/ad/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/ad/</guid>
+      <description>1. Description 2. Illustration 3. Source code 4. Compilation and usage 5. R source for illustration   1. Description How to distribute \(n\) vowels in an acoustic space so that the average vowel-to-vowel distance is maximized? In a classical paper, Liljencrants and Lindblom proposed numerically minimizing the energy function
+\[E = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{1}{(x_i - x_j)^2 + (y_i - y_j)^2}\]
+where the \(x_i\) stand for the first and the \(y_i\) for the second formants (expressed in mel space, with second formants F3-corrected).</description>
+    </item>
+    
+    <item>
+      <title>Individual and population in language change: mathematical explorations of the acquisition--use loop</title>
+      <link>http://henr.in/crumbs/phd/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/phd/</guid>
+      <description>PhD Thesis in Linguistics (2018, The University of Manchester).
+ Open access  Abstract Language change is driven by a constellation of acquisition and usage factors operating at two ontological levels: the level of the individual and the level of the population. This thesis proposes that an improved understanding of processes of language change can be obtained through the use of mathematical models that incorporate detailed mechanisms of language acquisition and use and derive diachronic predictions as mathematical theorems of those mechanisms.</description>
+    </item>
+    
+    <item>
+      <title>Plotting simplexes using R</title>
+      <link>http://henr.in/crumbs/simplex/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/simplex/</guid>
+      <description>In evolutionary game theory and related fields, one often needs to visualize the dynamics of three-dimensional systems, e.g. competition between three strategies \(x_1\), \(x_2\) and \(x_3\) for which \(x_1 + x_2 + x_3 = 1\). This is most conveniently done on a 2-simplex (ternary plot, de Finetti diagram), and the following code snippet defines a minimal way of visualizing data on a 2-simplex using R base graphics.
+The function takes a minimum of four arguments: x and y are vectors holding the \(x_1\) and \(x_2\) values (it is not necessary to input the remaining, third value, as \(x_3 = 1 - x_1 - x_2\)); label is a vector of length 3 giving labels for the vertices of the simplex.</description>
+    </item>
+    
+    <item>
+      <title>Fixing LaTeX math commas</title>
+      <link>http://henr.in/crumbs/mathcomma/</link>
+      <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/mathcomma/</guid>
+      <description>If you use different fonts for text and math in your LaTeX documents (not generally recommended, but necessary if your favourite font does not come with mathematics support), you may have found yourself annoyed by having two differently shaped commas, one in text mode and the other in math mode. Here&amp;rsquo;s a demonstration with Times as the text font and Computer Modern as the math font:
+The vertices $(1,0,0)$, $(0,1,0)$, and $(0,0,1)$\dots   A simple way of fixing this is to force math mode to use the text font comma.</description>
+    </item>
+    
+    <item>
+      <title>Evolutionary game theory</title>
+      <link>http://henr.in/crumbs/egt/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/egt/</guid>
+      <description>Some thoughts on evolutionary game theory and its applicability in diachronic linguistics, originally prepared for Postgridiots in 2014.
+ PDF  Abstract I review some basic concepts from Evolutionary Game Theory (EGT), a general mathematical framework for thinking about the competition and propagation of features or traits in arbitrary populations. While the origins of EGT lie in evolutionary biology, particularly in modelling individual contests in environments with limited resources, the framework has potential applications in fields as diverse as sociology, economics and linguistics, and adoption of the framework need not imply any sort of &amp;ldquo;biologism&amp;rdquo;, as I will argue.</description>
+    </item>
+    
+    <item>
+      <title>The problem of implementation and its relation to the philosophy of cognitive science</title>
+      <link>http://henr.in/crumbs/ma/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://henr.in/crumbs/ma/</guid>
+      <description>MA Thesis in Cognitive Science (2010, University of Helsinki).
+ Open access  Abstract According to certain arguments, computation is observer-relative either in the sense that many physical systems implement many computations (Hilary Putnam), or in the sense that almost all physical systems implement all computations (John Searle). If sound, these arguments have a potentially devastating consequence for the computational theory of mind: if arbitrary physical systems can be seen to implement arbitrary computations, the notion of computation seems to lose all explanatory power as far as brains and minds are concerned.</description>
+    </item>
+    
+  </channel>
+</rss>
