@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
 body {
   background: #ffffff;
   color: #000000;
@@ -91,18 +95,18 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Playwrite GB S', sans-serif;
   font-size: 200%;
   /*color: #ea651c;*/
-  color: #777;
+  color: #333;
 }
 
 h2 {
-  margin-top: 3em;
-  font-family: 'Pacifico', sans-serif;
+  margin-top: 2em;
+  font-family: 'Playwrite GB S', sans-serif;
   font-size: 150%;
   /*color: #ea651c;*/
-  color: #777;
+  color: #333;
 }
 
 section#papers {
@@ -217,7 +221,7 @@ i.fa {
 }
 
 a.button {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Afacad Flux', sans-serif;
   font-size: 80%;
   font-weight: bold;
   text-decoration: none;
