@@ -1,0 +1,7 @@
+{{ $services := .Site.Data.stuff }}
+
+<section id="stuff">
+  <h2 class="heading">{{ $services.title }}</h2>
+
+  <p>{{ $services.stuff | markdownify }}</h2>
+</section>

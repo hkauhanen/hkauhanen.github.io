@@ -1,0 +1,95 @@
+{
+  "title" : "Selected papers",
+  "services" : [
+		{
+      "title" : "Sociolinguistic typology meets historical corpus linguistics",
+      "year" : "2023",
+      "description" : "Discussing how to use historical corpora to assess questions of sociolinguistic typology, this paper puts forth the raison d'être of the STARFISH project.",
+      "citation" : "*Transactions of the Philological Society*, 121(3), 546--567",
+      "oa" : "https://doi.org/10.1111/1467-968X.12275",
+      "doi" : "10.1111/1467-968X.12275",
+			"authors" : "George Walkden, Gemma Hunter McCarley, Raquel Montero, Molly Rolf, Sarah Einhaus & Henri Kauhanen",
+      "img" : "starfish.png"
+    },
+		{
+      "title" : "Grammar competition, speaker models and rates of change: A critical reappraisal of the Constant Rate Hypothesis",
+      "year" : "2023",
+      "description" : "Models of constancy/variability of rates of change in language must show empirical fit, theoretical parsimony and ontological interpretability of key model parameters.",
+      "citation" : "*Journal of Historical Syntax*, 7(18), 1--31",
+      "oa" : "https://doi.org/10.18148/hs/2023.v7i6-19.148",
+      "doi" : "10.18148/hs/2023.v7i6-19.148",
+      "img" : "speakermodels.png"
+    },
+    {
+      "title" : "Language structure is influenced by the proportion of non-native speakers: A reply to Koplenig (2019)",
+      "year" : "2023",
+      "description" : "Both a complete cases analysis and a multiple imputation analysis of Koplenig's data suggest that higher proportions of second-language learners correlate with lower morphological complexity.",
+      "citation" : "*Journal of Language Evolution*",
+      "authors" : "Henri Kauhanen, Sarah Einhaus & George Walkden",
+      "paywalled" : "https://doi.org/10.1093/jole/lzad005",
+      "doi" : "10.1093/jole/lzad005",
+      "preprint" : "papers/koplenig-reply.pdf",
+      "img" : "reply-koplenig.png"
+    },
+    {
+      "title" : "A bifurcation threshold for contact-induced language change",
+      "year" : "2022",
+      "description" : "The fraction of L2 (second-language) learners present in a speech community must exceed a critical threshold for L2-difficult features to be lost.",
+      "citation" : "*Glossa: a journal of general linguistics*, 7(1), 1--32",
+      "oa" : "https://doi.org/10.16995/glossa.8211",
+      "doi" : "10.16995/glossa.8211",
+      "img" : "l2lrp.png"
+    },
+    {
+      "title" : "Geospatial distributions reflect temperatures of linguistic features",
+      "year" : "2021",
+      "description" : "The propensity of features of language to change can be measured using a temperature-like quantity.",
+      "citation" : "*Science Advances*, 7, eabe6540",
+      "authors" : "Henri Kauhanen, Deepthi Gopal, Tobias Galla & Ricardo Bermúdez-Otero",
+      "oa" : "https://doi.org/10.1126/sciadv.abe6540",
+      "doi" : "10.1126/sciadv.abe6540",
+      "img" : "tau.png",
+      "github" : "https://github.com/hkauhanen/littlesquares"
+    },
+    {
+      "title" : "Replicator--mutator dynamics of linguistic convergence and divergence",
+      "year" : "2020",
+      "citation" : "*Royal Society Open Science*, 7, 201682",
+      "oa" : "https://doi.org/10.1098/rsos.201682",
+      "doi" : "10.1098/rsos.201682",
+      "description" : "Sociolinguistic identity maintenance can be understood as a population game with nonlinear fitness.",
+      "img" : "con-di.png",
+      "github" : "https://github.com/hkauhanen/con-di"
+    },
+    {
+      "title" : "Stable variation in multidimensional competition",
+      "year" : "2019",
+      "citation" : "*The Determinants of Diachronic Stability* (Benjamins)",
+      "paywalled" : "https://doi.org/10.1075/la.254.11kau",
+      "doi" : "10.1075/la.254.11kau",
+      "preprint" : "https://arxiv.org/abs/2003.06265",
+      "description" : "Stable variation can arise when multiple grammars compete.",
+      "img" : "stable-variation.png"
+    },
+    {
+      "title" : "Deriving the Constant Rate Effect",
+      "year" : "2018",
+      "authors" : "Henri Kauhanen & George Walkden",
+      "citation" : "*Natural Language & Linguistic Theory*, 36(2), 483--521",
+      "oa" : "https://doi.org/10.1007/s11049-017-9380-1",
+      "doi" : "10.1007/s11049-017-9380-1",
+      "description" : "The Constant Rate Effect, or something like it, arises from the interplay of variational learning and production biases.",
+      "img" : "deriving-cre.png"
+    },
+    {
+      "title" : "Neutral change",
+      "year" : "2017",
+      "citation" : "*Journal of Linguistics*, 53(2), 327--358",
+      "paywalled" : "https://doi.org/10.1017/S0022226716000141",
+      "doi" : "10.1017/S0022226716000141",
+      "preprint" : "papers/neutral-change.pdf",
+      "description" : "Changes can be well-behaved even if they are selectively neutral.",
+      "img" : "neutral-change.png"
+    }
+  ]
+}

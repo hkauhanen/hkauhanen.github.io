@@ -1,0 +1,6 @@
+baseURL = "https://hkauhanen.fi/"
+languageCode = "en-gb"
+title = "Henri Kauhanen"
+theme = "academic"
+publishDir = "public_html"
+disqusShortname = "hkauhanen"

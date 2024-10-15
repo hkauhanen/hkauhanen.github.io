@@ -1,0 +1,20 @@
+{
+	"title" : "Theses",
+	"services" : [
+		{
+			"title" : "Individual and population in language change: mathematical explorations of the acquisition--use loop",
+      "year" : "2018",
+      "description" : "PhD Thesis in Linguistics, The University of Manchester",
+      "img": "phd.png",
+      "oa" : "https://www.research.manchester.ac.uk/portal/files/93532746/FULL_TEXT.PDF"
+		},
+		{
+			"title" : "The problem of implementation and its relation to the philosophy of cognitive science",
+      "year" : "2010",
+      "oa" : "http://urn.fi/URN:NBN:fi-fe201012233158",
+      "img": "ma.png",
+			"description" : "MA Thesis in Cognitive Science, University of Helsinki"
+		}
+  ]
+}
+

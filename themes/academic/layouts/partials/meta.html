@@ -1,0 +1,27 @@
+{{ $services := .Site.Data.config }}
+
+<section id="intro">
+  <div class="buttons">
+    <a alt="Google Scholar" title="Google Scholar" href="{{ $services.googlescholar }}"><i class="fab fa-google"></i></a>
+		<!--<a alt="Twitter" title="Twitter" href="{{ $services.twitter }}"><i class="fab fa-twitter"></i></a>-->
+    <a alt="GitHub" title="GitHub" href="{{ $services.github }}"><i class="fab fa-github"></i></a>
+    <a alt="ORCID" title="ORCID" href="{{ $services.orcid }}"><i class="fab fa-orcid"></i></a>
+  </div>
+  <div id="meta">
+  {{ $services.description | markdownify }}
+  </div>
+  <div>
+    <p style="margin-bottom: 0.2em">
+    <i class="fas fa-home"></i> {{ $services.role | markdownify }} / {{ $services.project | markdownify }} / {{ $services.institution | markdownify }}
+    </p>
+    <p class="nosep">
+    <i class="far fa-envelope"></i> {{ $services.emailscrambled }}
+    </p>
+    <!--
+    <p class="nosep">
+    <i class="fa fa-google"></i> <a href="{{ $services.googlescholar }}">{{ $services.googlescholar }}</a>
+    </p>
+    -->
+  </div>
+</section>
+

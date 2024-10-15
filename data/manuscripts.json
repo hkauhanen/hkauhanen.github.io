@@ -1,0 +1,20 @@
+{
+  "title" : "Manuscripts",
+  "services" : [
+    {
+      "title" : "What can toys teach us about actuation?",
+      "year" : "2022",
+      "description" : "FIXME",
+      "preprint" : "papers/toys.pdf",
+      "img" : "toys.png"
+    },
+    {
+      "title" : "Grammar competition, speaker models and rates of change: a critical reappraisal of the Constant Rate Hypothesis",
+      "year" : "2022",
+      "description" : "FIXME",
+      "preprint" : "papers/speakermodels.pdf",
+      "img" : "speakermodels.png"
+    }
+
+  ]
+}

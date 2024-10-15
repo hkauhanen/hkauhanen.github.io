@@ -1,0 +1,43 @@
+{{ $services := .Site.Data.theses }}
+
+<section id="papers">
+  <h2 class="heading">{{ $services.title }}</h2>
+
+  <div>
+
+    {{ range $index, $element := $services.services }}
+
+    <div class="paper">
+      {{ if $element.img }}
+      <img src="papers/{{ $element.img }}">
+      {{ end }}
+      <div class="paper-internal">
+      <h3>{{ $element.title | markdownify }}</h3>
+      <div class="details">
+      {{ if $element.authors }}
+      <p class="nosep">{{ $element.authors | markdownify }}</p>
+      {{ end }}
+      <p>{{ $element.citation | markdownify }} ({{ $element.year }})</p>
+      <!--<p>DOI: {{ $element.doi }}</p>-->
+      <p class="text-muted">{{ $element.description | markdownify }}</p>
+      {{ if $element.oa }}
+      <p class="nosep"><span class="access">Open access:</span><!--<i alt="Paper (open access)" title="Paper (open access)" class="fas fa-file-alt"></i>--> <a href="{{ $element.oa }}" alt="Paper (open access)" title="Paper (open access)">{{ $element.oa }}</a></p>
+      {{ end }}
+      {{ if $element.paywalled }}
+      <p class="nosep"><span class="access">Closed access:</span><!--<i alt="Paper (paywalled)" title="Paper (paywalled)" class="fas fa-lock"></i>--> <a alt="Paper (paywalled)" title="Paper (paywalled)" href="{{ $element.paywalled }}">{{ $element.paywalled }}</a></p>
+      {{ end }}
+      {{ if $element.preprint }}
+      <p class="nosep"><span class="access">Preprint:</span><!--<i alt="Preprint" title="Preprint" class="fas fa-file-signature"></i>--> <a alt="Preprint" title="Preprint" href="{{ $element.preprint }}">{{ $element.preprint }}</a></p>
+      {{ end }}
+      <!--
+      {{ if $element.github }}
+      <p class="nosep"><i alt="GitHub" title="GitHub" class="fas fa-file-code"></i> <a alt="GitHub" title="GitHub" href="{{ $element.github }}">{{ $element.github }}</a></p>
+      {{ end }}
+      -->
+      </div>
+    </div>
+    </div>
+
+    {{ end }}
+  </div>
+</section>

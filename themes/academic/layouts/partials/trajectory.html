@@ -1,0 +1,19 @@
+{{ $services := .Site.Data.trajectory }}
+
+<section id="trajectory">
+  <h2 class="heading">{{ $services.title }}</h2>
+
+  <div>
+
+    {{ range $index, $element := $services.services }}
+
+      <p>
+      <strong>{{ $element.timeperiod | markdownify }}</strong>
+      <br>{{ $element.description | markdownify }}
+      <!--<br><a href="{{ $element.website }}">{{ $element.company | markdownify }}</a>-->
+      <br>{{ $element.company | markdownify }}
+      </p>
+
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>science on Henri Kauhanen</title>
+    <link>https://hkauhanen.fi/tags/science/</link>
+    <description>Recent content in science on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language Dynamics Journal Club</title>
+      <link>https://hkauhanen.fi/blog/journalclub/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkauhanen.fi/blog/journalclub/</guid>
+      <description>A (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective. This page records a list of the interesting papers read.
+Upcoming meetings TBA TBA
+Past meetings (archive) 11/03/2021 McElreath, R. (2020) The Golem of Prague. In Statistical rethinking: a Bayesian course with examples in R and Stan (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.
+18/02/2021 Daniels, D., Barth, D. &amp;amp; Barth, W.</description>
+    </item>
+    
+  </channel>
+</rss>

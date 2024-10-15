@@ -1,0 +1,49 @@
+{
+	"title" : "Trajectory",
+	"services" : [
+    {
+			"timeperiod" : "2021--",
+			"company" : "University of Konstanz",
+      "website" : "https://www.ling.uni-konstanz.de/en/walkden/starfish/",
+			"description" : "Postdoc in the ERC project STARFISH"
+		},
+		{
+			"timeperiod" : "2019--2021",
+			"company" : "University of Konstanz",
+      "website" : "https://www.uni-konstanz.de/zukunftskolleg/",
+			"description" : "Postdoctoral Fellow, Zukunftskolleg"
+		},
+    {
+      "timeperiod" : "2019",
+      "company" : "Santa Fe Institute",
+      "website" : "https://www.santafe.edu/",
+      "description" : "Complex Systems Summer School"
+    },
+		{
+			"timeperiod" : "2018--2019",
+			"company" : "University of Manchester",
+      "website" : "https://www.manchester.ac.uk/",
+			"description" : "ESRC Postdoctoral Fellow"
+		},
+    {
+      "timeperiod" : "2017--2018",
+      "company" : "University of Konstanz",
+      "website" : "https://www.ling.uni-konstanz.de/en/",
+      "description" : "Akademischer Mitarbeiter, Department of Linguistics"
+    },
+    {
+      "timeperiod" : "2014--2018",
+      "company" : "University of Manchester",
+      "website" : "https://www.manchester.ac.uk/",
+      "description" : "PhD (Linguistics)"
+    },
+    {
+      "timeperiod" : "2005--2013",
+      "company" : "University of Helsinki",
+      "website" : "https://www.helsinki.fi/en/",
+      "description" : "BA (Cognitive Science), BA (English Philology), MA (Cognitive Science)"
+    }
+
+
+	]
+}

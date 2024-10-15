@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ partial "blog-header-list.html" . }}
+
+    {{ range .Pages }}
+    <div class="blog-list">
+      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      <br><span style="font-size:90%">{{ .Date.Format "2 January 2006" }}</span>
+      |
+      <span class="blog-list-taxonomy">
+    {{ range $index, $tag := .Params.tags }}
+    {{ if gt $index 0 }}{{ end }}
+    <!--<a href="{{ "tags/" | relURL}}{{ . | urlize }}">#{{ . }}</a>-->
+    #{{ . }}
+    {{ end }}
+  </span>
+
+    </div>
+    {{ end }}
+
+{{ partial "footer.html" . }}
