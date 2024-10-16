@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>review on Henri Kauhanen</title>
-    <link>https://hkauhanen.github.io/tags/review/</link>
+    <link>https://hkauhanen.fi/tags/review/</link>
     <description>Recent content in review on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.github.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ZD-915 desoldering station review</title>
-      <link>https://hkauhanen.github.io/blog/zd-915/</link>
+      <link>https://hkauhanen.fi/blog/zd-915/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://hkauhanen.github.io/blog/zd-915/</guid>
+      <guid>https://hkauhanen.fi/blog/zd-915/</guid>
       <description>My electronics hobby sometimes requires me to desolder components &amp;ndash; mostly traditional through-hole components &amp;ndash; off of printed circuit boards. Since this hasn&amp;rsquo;t been such a frequent occurrence, however, so far I&amp;rsquo;ve got by by using desoldering wick and one of those spring-operated desoldering pumps.
 Recently though I wanted to salvage a power supply from a diseased tape deck for a project I was working on. Having done this, I was left with a PCB full of potentially useful components.</description>
     </item>
