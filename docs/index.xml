@@ -6,7 +6,16 @@
     <description>Recent content on Henri Kauhanen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Small bass reflex speakers</title>
+      <link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
+      <description>For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent Pianoteq software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard.</description>
+    </item>
+    
     <item>
       <title>ZD-915 desoldering station review</title>
       <link>https://hkauhanen.fi/blog/zd-915/</link>
@@ -60,10 +69,9 @@ Multiple exposure is a fun technique. Flamenco is a complex dance. I wanted to u
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://hkauhanen.fi/blog/journalclub/</guid>
-      <description>A (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective. This page records a list of the interesting papers read.
-Upcoming meetings TBA TBA
-Past meetings (archive) 11/03/2021 McElreath, R. (2020) The Golem of Prague. In Statistical rethinking: a Bayesian course with examples in R and Stan (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.
-18/02/2021 Daniels, D., Barth, D. &amp;amp; Barth, W.</description>
+      <description>Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
+Archive 11/03/2021 McElreath, R. (2020) The Golem of Prague. In Statistical rethinking: a Bayesian course with examples in R and Stan (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.
+18/02/2021 Daniels, D., Barth, D. &amp;amp; Barth, W. (2019) Subgrouping the Sogeram languages: a critical appraisal of Historical Glottometry.</description>
     </item>
     
   </channel>

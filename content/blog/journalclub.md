@@ -6,16 +6,10 @@ description = "A reading group devoted to the study of language variation and ch
 tags = [ "science" ]
 +++
 
-A (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective. This page records a list of the interesting papers read.
-
-## Upcoming meetings
-
-### TBA
-
-TBA
+Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
 
 
-## Past meetings (archive)
+## Archive
 
 ### 11/03/2021
 

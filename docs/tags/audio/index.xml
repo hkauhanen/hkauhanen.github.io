@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audio on Henri Kauhanen</title>
+    <link>https://hkauhanen.fi/tags/audio/</link>
+    <description>Recent content in audio on Henri Kauhanen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Small bass reflex speakers</title>
+      <link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
+      <description>For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent Pianoteq software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard.</description>
+    </item>
+    
+  </channel>
+</rss>
