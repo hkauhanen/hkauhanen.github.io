@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://hkauhanen.fi/blog/abm/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hkauhanen.fi/tags/audio/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,6 +15,9 @@
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkauhanen.fi/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hkauhanen.fi/tags/science/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkauhanen.fi/blog/bookshelf-speakers/</loc>
@@ -51,9 +57,6 @@
     <lastmod>2022-04-09T15:28:46+02:00</lastmod>
   </url><url>
     <loc>https://hkauhanen.fi/blog/journalclub/</loc>
-    <lastmod>2020-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hkauhanen.fi/tags/science/</loc>
     <lastmod>2020-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://hkauhanen.fi/categories/</loc>
