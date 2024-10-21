@@ -1,7 +1,7 @@
 ---
 title: "Small bass reflex speakers"
-date: 2023-04-17
-draft: true
+date: 2024-10-21
+draft: false
 tags: ["audio", "diy"]
 ---
 
@@ -86,9 +86,9 @@ This was a fun project that I would wholeheartedly recommend to anyone intereste
 | Woofer (2)      | 17 €          | 34 €     |
 | Tweeter (2)     | 10 €          | 20 €     |
 | Binding post (2)| 3 €           | 6 €      |
-| Damping material| 5 €           | 5 €      |
+| Damping material| 8 €           | 8 €      |
 | ---             |               |          |
-| Grand total     |               | 102 €    |
+| Grand total     |               | 105 €    |
 
 Not included in above table: screws, wood finish, wood putty, sanding paper, electrical wire, solder and flux, cable ties, glue, electrical tape, Weems's book (or equivalent information!)
 
@@ -116,9 +116,9 @@ Not included in above table: screws, wood finish, wood putty, sanding paper, ele
 
 ![Alternate Text](DSCF5139.jpg "The original full-range driver.")
 
-![Alternate Text](DSCF5156.jpg "Cabinet with driver removed.")
+![Alternate Text](DSCF5156.jpg "Cabinet with driver removed. There is a very short port underneath the driver.")
 
-![Alternate Text](DSCF5160.jpg "Invasive surgery of cabinet.")
+![Alternate Text](DSCF5160.jpg "Invasive surgery of cabinet. (Don't be like me and do this in your living room.)")
 
 ![Alternate Text](DSCF5192.jpg "The port, a bent 16-cm long piece of PVC tubing, installed.")
 
@@ -129,3 +129,21 @@ Not included in above table: screws, wood finish, wood putty, sanding paper, ele
 ![Alternate Text](DSCF5208.jpg "It's starting to take shape.")
 
 ![Alternate Text](DSCF5216.jpg "The baffles were treated with 'Innenlasur'.")
+
+![Alternate Text](DSCF5219.jpg "Modelling the drivers.")
+
+![Alternate Text](DSCF5220.jpg "This makeshift tool was used to wind the coils.")
+
+![Alternate Text](DSCF5224.jpg "Prototyping the crossovers.")
+
+![Alternate Text](DSCF5249.jpg "One finished crossover.")
+
+![Alternate Text](DSCF5264.jpg "Port opening in the back.")
+
+![Alternate Text](DSCF5271.jpg "Some final tests.")
+
+![Alternate Text](DSCF5275.jpg "Crossover in place inside the cabinet.")
+
+![Alternate Text](DSCF5359.jpg "All done!")
+
+![Alternate Text](DSCF5355.jpg "Close-up.")
