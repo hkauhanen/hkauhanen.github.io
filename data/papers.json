@@ -1,6 +1,23 @@
 {
   "title" : "Selected papers",
   "services" : [
+    {
+      "title" : "Conditions for global asymptotic dominance in multidimensional grammar competition",
+      "year" : "in press",
+      "citation" : "*Proceedings of SIGMOL*",
+      "preprint" : "https://mol2025.molweb.xyz/docs/mol2025_kauhanen.pdf",
+      "description" : "Under what conditions does a particular grammar, among a set of competing grammars, emerge victorious?",
+      "img" : "gad.png"
+    },
+    {
+      "title" : "What can toys teach us about actuation?",
+      "year" : "2025",
+      "citation" : "*Acting on Actuation* (Language Science Press)",
+      "oa" : "https://doi.org/10.5281/zenodo.15783817",
+      "doi" : "10.5281/zenodo.15783817",
+      "description" : "Toy dynamical models can teach us foundational things about the actuation of language change.",
+      "img" : "toysteachus.png"
+    },
 		{
       "title" : "Sociolinguistic typology meets historical corpus linguistics",
       "year" : "2023",
