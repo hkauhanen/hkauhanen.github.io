@@ -2,7 +2,13 @@
 	"title" : "Trajectory",
 	"services" : [
     {
-			"timeperiod" : "2021--",
+			"timeperiod" : "2025--",
+			"company" : "University of Zurich",
+      "website" : "https://evazehentner.wordpress.com/www-sardeen/",
+			"description" : "Postdoc in the SNSF project WWW-SArDEEn"
+		},
+    {
+			"timeperiod" : "2021--2025",
 			"company" : "University of Konstanz",
       "website" : "https://www.ling.uni-konstanz.de/en/walkden/starfish/",
 			"description" : "Postdoc in the ERC project STARFISH"

@@ -2,6 +2,14 @@
   "title" : "Selected papers",
   "services" : [
     {
+      "title" : "Propagation of change: computational models",
+      "year" : "in press",
+      "citation" : "*Wiley--Blackwell Companion to Diachronic Linguistics*",
+      "preprint" : "papers/propagation.pdf",
+      "description" : "A birds-eye overview of mathematical models of language dynamics.",
+      "img" : "propagation.png"
+    },
+    {
       "title" : "Conditions for global asymptotic dominance in multidimensional grammar competition",
       "year" : "in press",
       "citation" : "*Proceedings of SIGMOL*",
