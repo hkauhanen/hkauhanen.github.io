@@ -26,6 +26,16 @@
       "description" : "Toy dynamical models can teach us foundational things about the actuation of language change.",
       "img" : "toysteachus.png"
     },
+    {
+      "title" : "Estimating transmission noise on networks from stationary local order",
+      "authors" : "Christopher R. Kitching, Henri Kauhanen, Jordan Abbott, Deepthi Gopal,Ricardo Bermúdez-Otero & Tobias Galla",
+      "year" : "2025",
+      "citation" : "*EPL*, 150(3), 31002",
+      "oa" : "https://doi.org/10.1209/0295-5075/adc9de",
+      "doi" : "10.1209/0295-5075/adc9de",
+      "description" : "Stability ranking of endogenously and exogenously changing binary traits is largely independent of network topology (with an application to language typology).",
+      "img" : "transmission-noise.png"
+    },
 		{
       "title" : "Sociolinguistic typology meets historical corpus linguistics",
       "year" : "2023",
