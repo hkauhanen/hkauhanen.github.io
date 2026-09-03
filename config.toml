@@ -1,5 +1,5 @@
 baseURL = "https://hkauhanen.fi/"
-languageCode = "en-gb"
+locale = "en-gb"
 title = "Henri Kauhanen"
 theme = "academic"
 publishDir = "docs"

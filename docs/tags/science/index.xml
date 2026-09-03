@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>science on Henri Kauhanen</title>
-    <link>https://hkauhanen.fi/tags/science/</link>
-    <description>Recent content in science on Henri Kauhanen</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/tags/science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agent-based modelling course</title>
-      <link>https://hkauhanen.fi/blog/abm/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/abm/</guid>
-      <description>In summer semester 2024, I lectured Agent-based modelling at the University of Konstanz. The course contents, here, may be useful to some!</description>
-    </item>
-    
-    <item>
-      <title>Language Dynamics Journal Club</title>
-      <link>https://hkauhanen.fi/blog/journalclub/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/journalclub/</guid>
-      <description>Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
-Archive 11/03/2021 McElreath, R. (2020) The Golem of Prague. In Statistical rethinking: a Bayesian course with examples in R and Stan (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.
-18/02/2021 Daniels, D., Barth, D. &amp;amp; Barth, W. (2019) Subgrouping the Sogeram languages: a critical appraisal of Historical Glottometry.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Science on Henri Kauhanen</title>
+		<link>https://hkauhanen.fi/tags/science/</link>
+		<description>Recent content in Science on Henri Kauhanen</description>
+		<generator>Hugo</generator>
+		<language>en-gb</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hkauhanen.fi/tags/science/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Agent-based modelling course</title>
+				<link>https://hkauhanen.fi/blog/abm/</link>
+				<pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/abm/</guid>
+				<description>&lt;p&gt;In summer semester 2024, I lectured &lt;em&gt;Agent-based modelling&lt;/em&gt; at the University of Konstanz. The course contents, &lt;a href=&#34;https://hkauhanen.fi/abm&#34;&gt;here&lt;/a&gt;, may be useful to some!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Language Dynamics Journal Club</title>
+				<link>https://hkauhanen.fi/blog/journalclub/</link>
+				<pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/journalclub/</guid>
+				<description>&lt;p&gt;Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.&lt;/p&gt;&#xA;&lt;h2 id=&#34;archive&#34;&gt;Archive&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11032021&#34;&gt;11/03/2021&lt;/h3&gt;&#xA;&lt;p&gt;McElreath, R. (2020) The Golem of Prague. In &lt;em&gt;Statistical rethinking: a Bayesian course with examples in R and Stan&lt;/em&gt; (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.&lt;/p&gt;&#xA;&lt;h3 id=&#34;18022021&#34;&gt;18/02/2021&lt;/h3&gt;&#xA;&lt;p&gt;Daniels, D., Barth, D. &amp;amp; Barth, W. (2019) Subgrouping the Sogeram languages: a critical appraisal of Historical Glottometry. &lt;em&gt;Journal of Historical Linguistics&lt;/em&gt;, 9, 92&amp;ndash;127. &lt;a href=&#34;https://doi.org/10.1075/jhl.17011.dan&#34;&gt;https://doi.org/10.1075/jhl.17011.dan&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,87 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogs on Henri Kauhanen</title>
-    <link>https://hkauhanen.fi/blog/</link>
-    <description>Recent content in Blogs on Henri Kauhanen</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agent-based modelling course</title>
-      <link>https://hkauhanen.fi/blog/abm/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/abm/</guid>
-      <description>In summer semester 2024, I lectured Agent-based modelling at the University of Konstanz. The course contents, here, may be useful to some!</description>
-    </item>
-    
-    <item>
-      <title>Small bass reflex speakers</title>
-      <link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
-      <description>For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent Pianoteq software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard.</description>
-    </item>
-    
-    <item>
-      <title>ZD-915 desoldering station review</title>
-      <link>https://hkauhanen.fi/blog/zd-915/</link>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/zd-915/</guid>
-      <description>My electronics hobby sometimes requires me to desolder components &amp;ndash; mostly traditional through-hole components &amp;ndash; off of printed circuit boards. Since this hasn&amp;rsquo;t been such a frequent occurrence, however, so far I&amp;rsquo;ve got by by using desoldering wick and one of those spring-operated desoldering pumps.
-Recently though I wanted to salvage a power supply from a diseased tape deck for a project I was working on. Having done this, I was left with a PCB full of potentially useful components.</description>
-    </item>
-    
-    <item>
-      <title>Anfim Best, part 1: Restoration</title>
-      <link>https://hkauhanen.fi/blog/anfim-part1/</link>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/anfim-part1/</guid>
-      <description>I have always loved Italian espresso. Since the spring of 2020, when the Covid pandemic broke out and cafés were suddenly off-limits, I&amp;rsquo;ve also tried to reproduce it at home (with varying success). In the quest for the &amp;ldquo;God shot&amp;rdquo;, I&amp;rsquo;ve cycled through more coffee-making equipment than I care to confess; among these are a multitude of grinders. I started with a humble Graef CM 800, then quickly progressed onto a Eureka Mignon Silenzio, a very capable grinder but with a number of quirks I didn&amp;rsquo;t care for (most importantly, the finicky little grind adjustment wheel).</description>
-    </item>
-    
-    <item>
-      <title>Bailaora</title>
-      <link>https://hkauhanen.fi/blog/bailaora/</link>
-      <pubDate>Sun, 19 Jun 2022 21:00:00 +0200</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/bailaora/</guid>
-      <description>When the pandemic hit, I briefly looked for new inspiration for photography indoors before suddenly losing all passion for the hobby for about two years. This photo is one of the last I took before those two years of photographic depression.
-Multiple exposure is a fun technique. Flamenco is a complex dance. I wanted to use the former to try to capture some of the complexity of the latter. So we pushed the living room sofa into a corner and my wife was generous enough to model in front of an ancient Minolta Autocord twin lens reflex camera propped on a tripod.</description>
-    </item>
-    
-    <item>
-      <title>Säntis</title>
-      <link>https://hkauhanen.fi/blog/saentis/</link>
-      <pubDate>Sun, 19 Jun 2022 16:00:00 +0200</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/saentis/</guid>
-      <description>Looking southward from Konstanz, the mountain of Säntis, some 50 km away in the Appenzell Alps, is clearly visible on most days. It is a modest peak in terms of summit height &amp;ndash; 2502 meters &amp;ndash; but stands very tall amongst its neighbours: Säntis is ultra-prominent, with a topographic prominence of 2021 meters. Having had a glimpse of it practically every day for the past five years, I was curious to get closer.</description>
-    </item>
-    
-    <item>
-      <title>Light restoration of a Wyvern 60C fountain pen</title>
-      <link>https://hkauhanen.fi/blog/wyvern/</link>
-      <pubDate>Sat, 09 Apr 2022 15:28:46 +0200</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/wyvern/</guid>
-      <description>On a recent trip home, I rediscovered a vintage fountain pen I had bought years ago and then completely forgotten about. It&amp;rsquo;s a Wyvern 60C, a no-nonsense lever filler in unadorned black hard rubber. It&amp;rsquo;s probably worth nothing &amp;mdash; but that&amp;rsquo;s beside the point, as this pen is a very good writer. It has a 14ct gold nib, something like a medium with some amount of flex under moderate pressure.</description>
-    </item>
-    
-    <item>
-      <title>Language Dynamics Journal Club</title>
-      <link>https://hkauhanen.fi/blog/journalclub/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/journalclub/</guid>
-      <description>Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.
-Archive 11/03/2021 McElreath, R. (2020) The Golem of Prague. In Statistical rethinking: a Bayesian course with examples in R and Stan (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.
-18/02/2021 Daniels, D., Barth, D. &amp;amp; Barth, W. (2019) Subgrouping the Sogeram languages: a critical appraisal of Historical Glottometry.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Blogs on Henri Kauhanen</title>
+		<link>https://hkauhanen.fi/blog/</link>
+		<description>Recent content in Blogs on Henri Kauhanen</description>
+		<generator>Hugo</generator>
+		<language>en-gb</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hkauhanen.fi/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Agent-based modelling course</title>
+				<link>https://hkauhanen.fi/blog/abm/</link>
+				<pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/abm/</guid>
+				<description>&lt;p&gt;In summer semester 2024, I lectured &lt;em&gt;Agent-based modelling&lt;/em&gt; at the University of Konstanz. The course contents, &lt;a href=&#34;https://hkauhanen.fi/abm&#34;&gt;here&lt;/a&gt;, may be useful to some!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Small bass reflex speakers</title>
+				<link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
+				<pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
+				<description>&lt;p&gt;For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent &lt;a href=&#34;https://www.modartt.com/&#34;&gt;Pianoteq&lt;/a&gt; software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard. For this reason, I had been using a pair of JBL Control One monitors, installed on stands on either side of the keyboard. I was never a fan of the sound of these little speakers, however&amp;mdash;they sounded muddy: the bass is boomy rather than crisp, and the treble lacks clarity.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ZD-915 desoldering station review</title>
+				<link>https://hkauhanen.fi/blog/zd-915/</link>
+				<pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/zd-915/</guid>
+				<description>&lt;p&gt;My electronics hobby sometimes requires me to desolder components &amp;ndash; mostly traditional through-hole components &amp;ndash; off of printed circuit boards. Since this hasn&amp;rsquo;t been such a frequent occurrence, however, so far I&amp;rsquo;ve got by by using desoldering wick and one of those spring-operated desoldering pumps.&lt;/p&gt;&#xA;&lt;p&gt;Recently though I wanted to salvage a power supply from a diseased tape deck for a project I was working on. Having done this, I was left with a PCB full of potentially useful components. As it would have taken an eternity to desolder those with the wick and pump, however, I finally pulled the trigger on a real negative pressure desoldering station.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Anfim Best, part 1: Restoration</title>
+				<link>https://hkauhanen.fi/blog/anfim-part1/</link>
+				<pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/anfim-part1/</guid>
+				<description>&lt;p&gt;I have always loved Italian espresso. Since the spring of 2020, when the Covid pandemic broke out and cafés were suddenly off-limits, I&amp;rsquo;ve also tried to reproduce it at home (with varying success). In the quest for the &amp;ldquo;God shot&amp;rdquo;, I&amp;rsquo;ve cycled through more coffee-making equipment than I care to confess; among these are a multitude of grinders. I started with a humble Graef CM 800, then quickly progressed onto a Eureka Mignon Silenzio, a very capable grinder but with a number of quirks I didn&amp;rsquo;t care for (most importantly, the finicky little grind adjustment wheel). I then decided to give a good quality hand grinder a try and bought a Kinu M47 Simplicity. The shots improved, but&amp;hellip; by this point, Gear Acquisition Syndrome had hit hard and I finally landed on a Niche Zero. The Niche made tasty coffee for sure, but I did not like the workflow or the messiness (I&amp;rsquo;ve never seen so much static in ground coffee as occurred with the Niche).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bailaora</title>
+				<link>https://hkauhanen.fi/blog/bailaora/</link>
+				<pubDate>Sun, 19 Jun 2022 21:00:00 +0200</pubDate>
+				<guid>https://hkauhanen.fi/blog/bailaora/</guid>
+				<description>&lt;p&gt;When the pandemic hit, I briefly looked for new inspiration for photography indoors before suddenly losing all passion for the hobby for about two years. This photo is one of the last I took before those two years of photographic depression.&lt;/p&gt;&#xA;&lt;p&gt;Multiple exposure is a fun technique. Flamenco is a complex dance. I wanted to use the former to try to capture some of the complexity of the latter. So we pushed the living room sofa into a corner and my wife was generous enough to model in front of an ancient Minolta Autocord twin lens reflex camera propped on a tripod. (It&amp;rsquo;s a tremendously fun camera by the way &amp;ndash; I will have to write more about it on a separate occasion.)&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Säntis</title>
+				<link>https://hkauhanen.fi/blog/saentis/</link>
+				<pubDate>Sun, 19 Jun 2022 16:00:00 +0200</pubDate>
+				<guid>https://hkauhanen.fi/blog/saentis/</guid>
+				<description>&lt;p&gt;Looking southward from Konstanz, the mountain of Säntis, some 50 km away in the Appenzell Alps, is clearly visible on most days. It is a modest peak in terms of summit height &amp;ndash; 2502 meters &amp;ndash; but stands very tall amongst its neighbours: Säntis is ultra-prominent, with a topographic prominence of 2021 meters. Having had a glimpse of it practically every day for the past five years, I was curious to get closer. As it turns out, Säntis is very accessible: a cable car has been taking tourists up the mountain since 1935 from nearby Schwägalp Pass. Atop, one finds modern facilities: a very large observation deck, three restaurants and various exhibitions.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Light restoration of a Wyvern 60C fountain pen</title>
+				<link>https://hkauhanen.fi/blog/wyvern/</link>
+				<pubDate>Sat, 09 Apr 2022 15:28:46 +0200</pubDate>
+				<guid>https://hkauhanen.fi/blog/wyvern/</guid>
+				<description>&lt;p&gt;On a recent trip home, I rediscovered a vintage fountain pen I had bought years ago and then completely forgotten about. It&amp;rsquo;s a Wyvern 60C, a no-nonsense lever filler in unadorned black hard rubber. It&amp;rsquo;s probably worth nothing &amp;mdash; but that&amp;rsquo;s beside the point, as this pen is a very good writer. It has a 14ct gold nib, something like a medium with some amount of flex under moderate pressure.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Language Dynamics Journal Club</title>
+				<link>https://hkauhanen.fi/blog/journalclub/</link>
+				<pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/journalclub/</guid>
+				<description>&lt;p&gt;Archive of papers read in a (very) approximately fortnightly reading group devoted to the study of language variation and change from an interdisciplinary perspective.&lt;/p&gt;&#xA;&lt;h2 id=&#34;archive&#34;&gt;Archive&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11032021&#34;&gt;11/03/2021&lt;/h3&gt;&#xA;&lt;p&gt;McElreath, R. (2020) The Golem of Prague. In &lt;em&gt;Statistical rethinking: a Bayesian course with examples in R and Stan&lt;/em&gt; (2nd ed.), 1&amp;ndash;18. Boca Raton, FL: CRC Press.&lt;/p&gt;&#xA;&lt;h3 id=&#34;18022021&#34;&gt;18/02/2021&lt;/h3&gt;&#xA;&lt;p&gt;Daniels, D., Barth, D. &amp;amp; Barth, W. (2019) Subgrouping the Sogeram languages: a critical appraisal of Historical Glottometry. &lt;em&gt;Journal of Historical Linguistics&lt;/em&gt;, 9, 92&amp;ndash;127. &lt;a href=&#34;https://doi.org/10.1075/jhl.17011.dan&#34;&gt;https://doi.org/10.1075/jhl.17011.dan&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

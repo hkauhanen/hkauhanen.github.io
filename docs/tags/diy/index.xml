@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>diy on Henri Kauhanen</title>
-    <link>https://hkauhanen.fi/tags/diy/</link>
-    <description>Recent content in diy on Henri Kauhanen</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://hkauhanen.fi/tags/diy/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Small bass reflex speakers</title>
-      <link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
-      <description>For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent Pianoteq software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard.</description>
-    </item>
-    
-    <item>
-      <title>Anfim Best, part 1: Restoration</title>
-      <link>https://hkauhanen.fi/blog/anfim-part1/</link>
-      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/anfim-part1/</guid>
-      <description>I have always loved Italian espresso. Since the spring of 2020, when the Covid pandemic broke out and cafés were suddenly off-limits, I&amp;rsquo;ve also tried to reproduce it at home (with varying success). In the quest for the &amp;ldquo;God shot&amp;rdquo;, I&amp;rsquo;ve cycled through more coffee-making equipment than I care to confess; among these are a multitude of grinders. I started with a humble Graef CM 800, then quickly progressed onto a Eureka Mignon Silenzio, a very capable grinder but with a number of quirks I didn&amp;rsquo;t care for (most importantly, the finicky little grind adjustment wheel).</description>
-    </item>
-    
-    <item>
-      <title>Light restoration of a Wyvern 60C fountain pen</title>
-      <link>https://hkauhanen.fi/blog/wyvern/</link>
-      <pubDate>Sat, 09 Apr 2022 15:28:46 +0200</pubDate>
-      
-      <guid>https://hkauhanen.fi/blog/wyvern/</guid>
-      <description>On a recent trip home, I rediscovered a vintage fountain pen I had bought years ago and then completely forgotten about. It&amp;rsquo;s a Wyvern 60C, a no-nonsense lever filler in unadorned black hard rubber. It&amp;rsquo;s probably worth nothing &amp;mdash; but that&amp;rsquo;s beside the point, as this pen is a very good writer. It has a 14ct gold nib, something like a medium with some amount of flex under moderate pressure.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Diy on Henri Kauhanen</title>
+		<link>https://hkauhanen.fi/tags/diy/</link>
+		<description>Recent content in Diy on Henri Kauhanen</description>
+		<generator>Hugo</generator>
+		<language>en-gb</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://hkauhanen.fi/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Small bass reflex speakers</title>
+				<link>https://hkauhanen.fi/blog/bookshelf-speakers/</link>
+				<pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/bookshelf-speakers/</guid>
+				<description>&lt;p&gt;For my piano playing hobby, I use a Kawai VPC-1 MIDI controller combined with a PC running the excellent &lt;a href=&#34;https://www.modartt.com/&#34;&gt;Pianoteq&lt;/a&gt; software. I normally practice using headphones so as not to annoy others, but on occasion, it is nice to play through loudspeakers. Given the way the keyboard is placed in our living room, however, the main speakers of our hifi system are to one side of the keyboard and hence do not project well when you&amp;rsquo;re sat at the keyboard. For this reason, I had been using a pair of JBL Control One monitors, installed on stands on either side of the keyboard. I was never a fan of the sound of these little speakers, however&amp;mdash;they sounded muddy: the bass is boomy rather than crisp, and the treble lacks clarity.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Anfim Best, part 1: Restoration</title>
+				<link>https://hkauhanen.fi/blog/anfim-part1/</link>
+				<pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>https://hkauhanen.fi/blog/anfim-part1/</guid>
+				<description>&lt;p&gt;I have always loved Italian espresso. Since the spring of 2020, when the Covid pandemic broke out and cafés were suddenly off-limits, I&amp;rsquo;ve also tried to reproduce it at home (with varying success). In the quest for the &amp;ldquo;God shot&amp;rdquo;, I&amp;rsquo;ve cycled through more coffee-making equipment than I care to confess; among these are a multitude of grinders. I started with a humble Graef CM 800, then quickly progressed onto a Eureka Mignon Silenzio, a very capable grinder but with a number of quirks I didn&amp;rsquo;t care for (most importantly, the finicky little grind adjustment wheel). I then decided to give a good quality hand grinder a try and bought a Kinu M47 Simplicity. The shots improved, but&amp;hellip; by this point, Gear Acquisition Syndrome had hit hard and I finally landed on a Niche Zero. The Niche made tasty coffee for sure, but I did not like the workflow or the messiness (I&amp;rsquo;ve never seen so much static in ground coffee as occurred with the Niche).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Light restoration of a Wyvern 60C fountain pen</title>
+				<link>https://hkauhanen.fi/blog/wyvern/</link>
+				<pubDate>Sat, 09 Apr 2022 15:28:46 +0200</pubDate>
+				<guid>https://hkauhanen.fi/blog/wyvern/</guid>
+				<description>&lt;p&gt;On a recent trip home, I rediscovered a vintage fountain pen I had bought years ago and then completely forgotten about. It&amp;rsquo;s a Wyvern 60C, a no-nonsense lever filler in unadorned black hard rubber. It&amp;rsquo;s probably worth nothing &amp;mdash; but that&amp;rsquo;s beside the point, as this pen is a very good writer. It has a 14ct gold nib, something like a medium with some amount of flex under moderate pressure.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
