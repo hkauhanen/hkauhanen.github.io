@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+{{ partial "blog-header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="blog-meta">
+  <span class="blog-date">
+  {{ .Date.Format "2 January 2006" }}
+  </span>
+  |
+  <span class="blog-taxonomy">
+    {{ range $index, $tag := .Params.tags }}
+    {{ if gt $index 0 }}{{ end }}
+    <!--<a href="{{ "tags/" | relURL}}{{ . | urlize }}">#{{ . }}</a>-->
+    #{{ . }}
+    {{ end }}
+  </span>
+</div>
+
+<div class="blog-content">
+  {{ .Content }}
+
+  {{ if .Params.gallery }}
+  {{ range .Resources.Match "img/*" }}
+  <img src="{{ . }}" class="gallery">
+  {{ end }}
+  {{ end }}
+</div>
+
+<!--{{ partial "disqus.html" . }}-->
+
+{{ partial "footer.html" . }}
